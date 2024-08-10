@@ -1,0 +1,1801 @@
+- 04:08:04.297 INFO: --------------------------------------------------------
+- 04:08:04.297 INFO: Started application
+- 04:08:04.297 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 04:08:04.297 INFO: Log level = DEBUG4
+- 04:08:04.297 INFO: Starting Mongoose 3.9c web server
+- 04:08:04.297 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 04:08:04.297 INFO: Index files: index.html,index.php
+- 04:08:04.312 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 04:08:04.312 INFO: CGI pattern: **.php$
+- 04:08:04.312 INFO: Hide files patterns: 
+- 04:08:04.312 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 04:08:04.391 INFO: Web server url: http://127.0.0.1:49841/
+- 04:08:04.406 INFO: remote_debugging_port = 57372
+- 04:08:05.578 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=57372
+- 04:08:08.016 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=EE99151AB17989ECB9EF901646A45CF5 --mojo-platform-channel-handle=1820 /prefetch:2
+- 04:08:09.859 DEBUG: App::OnContextInitialized()
+- 04:08:09.859 DEBUG: Window max width/height = 1286/720
+- 04:08:09.859 DEBUG: GetBrowserWindow(): not found, hwnd = 132512
+- 04:08:09.859 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:08:09.859 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:08:09.937 DEBUG: StoreBrowserWindow(): hwnd = 132512
+- 04:08:10.141 DEBUG: ClientHandler::OnAfterCreated()
+- 04:08:10.141 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:08:10.016 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=5B4F0000288DEEEC5423B6E922EF0E6D --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=5B4F0000288DEEEC5423B6E922EF0E6D --renderer-client-id=3 --mojo-platform-channel-handle=2396 /prefetch:1
+- 04:08:11.594 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:08:12.610 DEBUG: OnBrowserCreated()
+[0615/040814.571:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 04:08:18.031 INFO: GET 200 /
+- 04:08:19.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49841/
+- 04:08:37.984 DEBUG: WM_DESTROY
+- 04:08:37.984 DEBUG: RemoveBrowserWindow(): hwnd = 132512
+- 04:08:37.984 INFO: Stopping Mongoose web server
+- 04:08:37.984 DEBUG: Mongoose webserver stopped immediately
+- 04:08:37.984 DEBUG: OnBeforeClose() hwnd=132518
+- 04:08:37.984 DEBUG: RemoveBrowserWindow(): hwnd = 132518
+- 04:08:37.984 DEBUG: GetBrowserWindow(): not found, hwnd = 132518
+- 04:08:37.984 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:08:37.984 DEBUG: Calling CefQuitMessageLoop()
+- 04:08:37.047 DEBUG: GetBrowserWindow(): not found, hwnd = 132512
+- 04:08:37.047 DEBUG: WindowProc(): event WM_SETFOCUS: could not fetch BrowserWindow
+- 04:08:37.797 DEBUG: OnBrowserDestroyed()
+- 04:08:37.141 DEBUG: GetBrowserWindow(): not found, hwnd = 132512
+- 04:08:37.141 DEBUG: WindowProc(): event WM_SETFOCUS: could not fetch BrowserWindow
+- 04:08:38.609 INFO: Ended application
+- 04:08:38.609 INFO: --------------------------------------------------------
+- 04:17:39.235 INFO: --------------------------------------------------------
+- 04:17:39.235 INFO: Started application
+- 04:17:39.235 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 04:17:39.235 INFO: Log level = DEBUG4
+- 04:17:39.235 INFO: Starting Mongoose 3.9c web server
+- 04:17:39.235 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 04:17:39.235 INFO: Index files: index.html,index.php
+- 04:17:39.235 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 04:17:39.235 INFO: CGI pattern: **.php$
+- 04:17:39.235 INFO: Hide files patterns: 
+- 04:17:39.235 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 04:17:39.250 INFO: Web server url: http://127.0.0.1:49888/
+- 04:17:39.250 INFO: remote_debugging_port = 59055
+- 04:17:39.250 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=59055
+- 04:17:39.328 DEBUG: App::OnContextInitialized()
+- 04:17:39.328 DEBUG: Window max width/height = 1286/720
+- 04:17:39.328 DEBUG: GetBrowserWindow(): not found, hwnd = 722300
+- 04:17:39.344 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:17:39.344 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:17:39.344 DEBUG: StoreBrowserWindow(): hwnd = 722300
+- 04:17:40.422 DEBUG: ClientHandler::OnAfterCreated()
+- 04:17:40.422 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:17:40.438 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:17:40.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=0211EE3D5251E63BC64346C57F436A2F --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0211EE3D5251E63BC64346C57F436A2F --renderer-client-id=3 --mojo-platform-channel-handle=2376 /prefetch:1
+- 04:17:40.047 DEBUG: OnBrowserCreated()
+- 04:17:40.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=B9B812A65EB4A5D837A30DAB8AC0DAB2 --mojo-platform-channel-handle=1872 /prefetch:2
+[0615/041740.497:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 04:17:41.219 INFO: GET 200 /
+- 04:17:42.360 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49888/
+- 04:17:46.360 DEBUG: OnBeforeClose() hwnd=263596
+- 04:17:46.360 DEBUG: RemoveBrowserWindow(): hwnd = 263596
+- 04:17:46.360 DEBUG: GetBrowserWindow(): not found, hwnd = 263596
+- 04:17:46.360 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:18:08.172 INFO: --------------------------------------------------------
+- 04:18:08.172 INFO: Started application
+- 04:18:08.172 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 04:18:08.172 INFO: Log level = DEBUG4
+- 04:18:08.172 INFO: Starting Mongoose 3.9c web server
+- 04:18:08.172 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 04:18:08.172 INFO: Index files: index.html,index.php
+- 04:18:08.172 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 04:18:08.172 INFO: CGI pattern: **.php$
+- 04:18:08.172 INFO: Hide files patterns: 
+- 04:18:08.172 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 04:18:08.172 INFO: Web server url: http://127.0.0.1:49894/
+- 04:18:08.188 INFO: remote_debugging_port = 56213
+- 04:18:08.188 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=56213
+- 04:18:08.359 DEBUG: App::OnContextInitialized()
+- 04:18:08.359 DEBUG: Window max width/height = 1286/720
+- 04:18:08.359 DEBUG: GetBrowserWindow(): not found, hwnd = 591258
+- 04:18:08.359 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:18:08.375 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:18:08.375 DEBUG: StoreBrowserWindow(): hwnd = 591258
+- 04:18:08.453 DEBUG: ClientHandler::OnAfterCreated()
+- 04:18:08.453 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:18:08.469 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:18:09.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=A7D7CC62C0917409542FBCA785B7A9F0 --mojo-platform-channel-handle=1768 /prefetch:2
+- 04:18:09.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=915AE9D002B8558FD57C252355491E20 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=915AE9D002B8558FD57C252355491E20 --renderer-client-id=3 --mojo-platform-channel-handle=2380 /prefetch:1
+- 04:18:09.047 DEBUG: OnBrowserCreated()
+[0615/041809.438:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 04:18:10.516 INFO: GET 200 /
+- 04:18:11.563 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49894/
+- 04:18:14.953 DEBUG: WM_DESTROY
+- 04:18:14.953 DEBUG: RemoveBrowserWindow(): hwnd = 591258
+- 04:18:14.953 INFO: Stopping Mongoose web server
+- 04:18:14.953 DEBUG: Mongoose webserver stopped immediately
+- 04:18:14.969 DEBUG: OnBeforeClose() hwnd=263754
+- 04:18:14.969 DEBUG: RemoveBrowserWindow(): hwnd = 263754
+- 04:18:14.969 DEBUG: GetBrowserWindow(): not found, hwnd = 263754
+- 04:18:14.969 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:18:14.969 DEBUG: Calling CefQuitMessageLoop()
+- 04:18:14.031 INFO: Ended application
+- 04:18:14.031 INFO: --------------------------------------------------------
+- 04:21:25.172 INFO: --------------------------------------------------------
+- 04:21:25.172 INFO: Started application
+- 04:21:25.172 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 04:21:25.172 INFO: Log level = DEBUG4
+- 04:21:25.172 INFO: Starting Mongoose 3.9c web server
+- 04:21:25.172 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 04:21:25.172 INFO: Index files: index.html,index.php
+- 04:21:25.172 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 04:21:25.172 INFO: CGI pattern: **.php$
+- 04:21:25.172 INFO: Hide files patterns: 
+- 04:21:25.172 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 04:21:25.188 INFO: Web server url: http://127.0.0.1:49938/
+- 04:21:25.188 INFO: remote_debugging_port = 64224
+- 04:21:25.188 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=64224
+- 04:21:25.266 DEBUG: App::OnContextInitialized()
+- 04:21:25.266 DEBUG: Window max width/height = 1286/720
+- 04:21:25.266 DEBUG: GetBrowserWindow(): not found, hwnd = 394666
+- 04:21:25.266 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:21:25.266 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:21:25.266 DEBUG: StoreBrowserWindow(): hwnd = 394666
+- 04:21:25.344 DEBUG: ClientHandler::OnAfterCreated()
+- 04:21:25.344 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:21:25.360 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:21:25.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=F3A9DB129BAB7F6A04D1D4F2D9CDC415 --mojo-platform-channel-handle=1724 /prefetch:2
+- 04:21:25.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=68DEDF0D3A20DF8FC49A4D9B03FF7F7A --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=68DEDF0D3A20DF8FC49A4D9B03FF7F7A --renderer-client-id=3 --mojo-platform-channel-handle=2364 /prefetch:1
+- 04:21:25.047 DEBUG: OnBrowserCreated()
+[0615/042125.435:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 04:21:26.813 INFO: GET 302 /
+[0615/042126.781:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -107
+- 04:21:26.953 DEBUG: OnLoadError, errorCode=-107, failedUrl=https://127.0.0.1:49938/Login
+- 04:21:42.141 INFO: --------------------------------------------------------
+- 04:21:42.141 INFO: Started application
+- 04:21:42.141 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 04:21:42.141 INFO: Log level = DEBUG4
+- 04:21:42.141 INFO: Starting Mongoose 3.9c web server
+- 04:21:42.141 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 04:21:42.141 INFO: Index files: index.html,index.php
+- 04:21:42.157 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 04:21:42.157 INFO: CGI pattern: **.php$
+- 04:21:42.157 INFO: Hide files patterns: 
+- 04:21:42.157 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 04:21:42.157 INFO: Web server url: http://127.0.0.1:49944/
+- 04:21:42.157 INFO: remote_debugging_port = 49688
+- 04:21:42.157 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=49688
+- 04:21:42.235 DEBUG: App::OnContextInitialized()
+- 04:21:42.235 DEBUG: Window max width/height = 1286/720
+- 04:21:42.235 DEBUG: GetBrowserWindow(): not found, hwnd = 656752
+- 04:21:42.235 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:21:42.235 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:21:42.235 DEBUG: StoreBrowserWindow(): hwnd = 656752
+- 04:21:42.313 DEBUG: ClientHandler::OnAfterCreated()
+- 04:21:42.313 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:21:42.329 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:21:42.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=0703D476F1F41CD84F4A232CAA254F94 --mojo-platform-channel-handle=1868 /prefetch:2
+- 04:21:42.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=6CAAFBBB103C755AC0D83A9513188C4E --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=6CAAFBBB103C755AC0D83A9513188C4E --renderer-client-id=3 --mojo-platform-channel-handle=2376 /prefetch:1
+[0615/042142.910:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 04:21:42.125 DEBUG: OnBrowserCreated()
+[0615/042144.861:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -107
+- 04:21:44.438 DEBUG: OnLoadError, errorCode=-107, failedUrl=https://127.0.0.1:49944/Login
+- 04:21:44.485 INFO: GET 302 /
+- 04:23:22.172 INFO: --------------------------------------------------------
+- 04:23:22.172 INFO: Started application
+- 04:23:22.172 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 04:23:22.172 INFO: Log level = DEBUG4
+- 04:23:22.172 INFO: Starting Mongoose 3.9c web server
+- 04:23:22.172 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 04:23:22.172 INFO: Index files: index.html,index.php
+- 04:23:22.172 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 04:23:22.172 INFO: CGI pattern: **.php$
+- 04:23:22.172 INFO: Hide files patterns: 
+- 04:23:22.172 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 04:23:22.172 INFO: Web server url: http://127.0.0.1:49951/
+- 04:23:22.188 INFO: remote_debugging_port = 62939
+- 04:23:22.188 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=62939
+- 04:23:22.266 DEBUG: App::OnContextInitialized()
+- 04:23:22.266 DEBUG: Window max width/height = 1286/720
+- 04:23:22.266 DEBUG: GetBrowserWindow(): not found, hwnd = 591282
+- 04:23:22.266 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:23:22.266 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:23:22.266 DEBUG: StoreBrowserWindow(): hwnd = 591282
+- 04:23:22.344 DEBUG: ClientHandler::OnAfterCreated()
+- 04:23:22.344 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:23:22.360 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:23:22.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=02797D450AF386A5980948F47DE4DC90 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=02797D450AF386A5980948F47DE4DC90 --renderer-client-id=3 --mojo-platform-channel-handle=2388 /prefetch:1
+- 04:23:22.046 DEBUG: OnBrowserCreated()
+- 04:23:22.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=2D7FA28908789E232BE2BD55A7AAE216 --mojo-platform-channel-handle=1772 /prefetch:2
+[0615/042323.059:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 04:23:24.844 INFO: GET 200 /
+- 04:23:24.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49951/
+- 04:23:43.266 DEBUG: OnBeforeClose() hwnd=656852
+- 04:23:43.266 DEBUG: RemoveBrowserWindow(): hwnd = 656852
+- 04:23:43.266 DEBUG: GetBrowserWindow(): not found, hwnd = 656852
+- 04:23:43.266 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:24:32.156 INFO: --------------------------------------------------------
+- 04:24:32.156 INFO: Started application
+- 04:24:32.156 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 04:24:32.156 INFO: Log level = DEBUG4
+- 04:24:32.156 INFO: Starting Mongoose 3.9c web server
+- 04:24:32.156 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 04:24:32.156 INFO: Index files: index.html,index.php
+- 04:24:32.156 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 04:24:32.156 INFO: CGI pattern: **.php$
+- 04:24:32.156 INFO: Hide files patterns: 
+- 04:24:32.172 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 04:24:32.172 INFO: Web server url: http://127.0.0.1:49956/
+- 04:24:32.172 INFO: remote_debugging_port = 50215
+- 04:24:32.172 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=50215
+- 04:24:32.250 DEBUG: App::OnContextInitialized()
+- 04:24:32.266 DEBUG: Window max width/height = 1286/720
+- 04:24:32.281 DEBUG: GetBrowserWindow(): not found, hwnd = 656814
+- 04:24:32.297 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:24:32.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=99F0FDE56675BF58D6F18E4CF7CFFA29 --mojo-platform-channel-handle=1780 /prefetch:2
+- 04:24:32.297 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:24:32.297 DEBUG: StoreBrowserWindow(): hwnd = 656814
+- 04:24:32.406 DEBUG: ClientHandler::OnAfterCreated()
+- 04:24:32.406 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:24:32.422 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:24:32.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=1DFB81F987F9C5807364A1B97FF7CC3D --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1DFB81F987F9C5807364A1B97FF7CC3D --renderer-client-id=3 --mojo-platform-channel-handle=2376 /prefetch:1
+- 04:24:32.062 DEBUG: OnBrowserCreated()
+[0615/042432.919:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 04:24:34.766 INFO: GET 500 /
+- 04:24:34.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49956/
+- 04:24:40.453 DEBUG: WM_DESTROY
+- 04:24:40.453 DEBUG: RemoveBrowserWindow(): hwnd = 656814
+- 04:24:40.453 INFO: Stopping Mongoose web server
+- 04:24:40.453 DEBUG: Mongoose webserver stopped immediately
+- 04:24:40.453 DEBUG: OnBeforeClose() hwnd=1115516
+- 04:24:40.469 DEBUG: RemoveBrowserWindow(): hwnd = 1115516
+- 04:24:40.469 DEBUG: GetBrowserWindow(): not found, hwnd = 1115516
+- 04:24:40.469 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:24:40.469 DEBUG: Calling CefQuitMessageLoop()
+- 04:24:40.547 INFO: Ended application
+- 04:24:40.547 INFO: --------------------------------------------------------
+- 04:41:18.156 INFO: --------------------------------------------------------
+- 04:41:18.156 INFO: Started application
+- 04:41:18.156 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 04:41:18.156 INFO: Log level = DEBUG4
+- 04:41:18.172 INFO: Starting Mongoose 3.9c web server
+- 04:41:18.172 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 04:41:18.172 INFO: Index files: index.html,index.php
+- 04:41:18.172 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 04:41:18.172 INFO: CGI pattern: **.php$
+- 04:41:18.172 INFO: Hide files patterns: 
+- 04:41:18.172 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 04:41:18.172 INFO: Web server url: http://127.0.0.1:49968/
+- 04:41:18.187 INFO: remote_debugging_port = 63883
+- 04:41:18.187 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=63883
+- 04:41:18.250 DEBUG: App::OnContextInitialized()
+- 04:41:18.250 DEBUG: Window max width/height = 1286/720
+- 04:41:18.250 DEBUG: GetBrowserWindow(): not found, hwnd = 722350
+- 04:41:18.250 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:41:18.250 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:41:18.250 DEBUG: StoreBrowserWindow(): hwnd = 722350
+- 04:41:18.016 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=6A020EC3D9CBDCA242817E32B10590BC --mojo-platform-channel-handle=1872 /prefetch:2
+- 04:41:18.359 DEBUG: ClientHandler::OnAfterCreated()
+- 04:41:18.390 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:41:18.406 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:41:19.016 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=F4DA9B82EBF6A6830E234D2FBB1F0392 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=F4DA9B82EBF6A6830E234D2FBB1F0392 --renderer-client-id=3 --mojo-platform-channel-handle=2368 /prefetch:1
+[0615/044119.065:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 04:41:19.094 DEBUG: OnBrowserCreated()
+- 04:41:20.750 INFO: GET 200 /
+- 04:41:20.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49968/
+- 04:41:37.906 DEBUG: WM_DESTROY
+- 04:41:37.906 DEBUG: RemoveBrowserWindow(): hwnd = 722350
+- 04:41:37.906 INFO: Stopping Mongoose web server
+- 04:41:37.906 DEBUG: Mongoose webserver stopped immediately
+- 04:41:37.906 DEBUG: OnBeforeClose() hwnd=329054
+- 04:41:37.906 DEBUG: RemoveBrowserWindow(): hwnd = 329054
+- 04:41:37.922 DEBUG: GetBrowserWindow(): not found, hwnd = 329054
+- 04:41:37.922 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:41:37.922 DEBUG: Calling CefQuitMessageLoop()
+- 04:41:37.062 INFO: Ended application
+- 04:41:37.062 INFO: --------------------------------------------------------
+- 04:46:09.015 INFO: --------------------------------------------------------
+- 04:46:09.015 INFO: Started application
+- 04:46:09.015 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 04:46:09.015 INFO: Log level = DEBUG4
+- 04:46:09.015 INFO: Starting Mongoose 3.9c web server
+- 04:46:09.015 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 04:46:09.015 INFO: Index files: index.html,index.php
+- 04:46:09.015 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 04:46:09.015 INFO: CGI pattern: **.php$
+- 04:46:09.015 INFO: Hide files patterns: 
+- 04:46:09.015 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 04:46:09.031 INFO: Web server url: http://127.0.0.1:50058/
+- 04:46:09.031 INFO: remote_debugging_port = 54631
+- 04:46:09.031 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=54631
+- 04:46:09.094 DEBUG: App::OnContextInitialized()
+- 04:46:09.094 DEBUG: Window max width/height = 1286/720
+- 04:46:09.094 DEBUG: GetBrowserWindow(): not found, hwnd = 1049878
+- 04:46:09.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:46:09.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:46:09.094 DEBUG: StoreBrowserWindow(): hwnd = 1049878
+- 04:46:10.250 DEBUG: ClientHandler::OnAfterCreated()
+- 04:46:10.250 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:46:10.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=D9915B23BD66C7785D2D305795F126F1 --mojo-platform-channel-handle=1832 /prefetch:2
+- 04:46:10.265 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:46:10.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=FA323D91BB2C77D48EABB80D32C1B1A6 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=FA323D91BB2C77D48EABB80D32C1B1A6 --renderer-client-id=3 --mojo-platform-channel-handle=2340 /prefetch:1
+- 04:46:10.062 DEBUG: OnBrowserCreated()
+[0615/044610.194:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 04:46:11.734 INFO: GET 200 /
+- 04:46:11.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50058/
+- 04:46:17.437 DEBUG: WM_DESTROY
+- 04:46:17.437 DEBUG: RemoveBrowserWindow(): hwnd = 1049878
+- 04:46:17.437 INFO: Stopping Mongoose web server
+- 04:46:17.437 DEBUG: Mongoose webserver stopped immediately
+- 04:46:17.437 DEBUG: OnBeforeClose() hwnd=1246588
+- 04:46:17.437 DEBUG: RemoveBrowserWindow(): hwnd = 1246588
+- 04:46:17.437 DEBUG: GetBrowserWindow(): not found, hwnd = 1246588
+- 04:46:17.437 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:46:17.437 DEBUG: Calling CefQuitMessageLoop()
+- 04:46:17.594 INFO: Ended application
+- 04:46:17.594 INFO: --------------------------------------------------------
+- 04:50:03.000 INFO: --------------------------------------------------------
+- 04:50:03.000 INFO: Started application
+- 04:50:03.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 04:50:03.000 INFO: Log level = DEBUG4
+- 04:50:03.000 INFO: Starting Mongoose 3.9c web server
+- 04:50:03.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 04:50:03.000 INFO: Index files: index.html,index.php
+- 04:50:03.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 04:50:03.000 INFO: CGI pattern: **.php$
+- 04:50:03.000 INFO: Hide files patterns: 
+- 04:50:03.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 04:50:03.015 INFO: Web server url: http://127.0.0.1:50183/
+- 04:50:03.015 INFO: remote_debugging_port = 56902
+- 04:50:03.015 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=56902
+- 04:50:03.093 DEBUG: App::OnContextInitialized()
+- 04:50:03.093 DEBUG: Window max width/height = 1286/720
+- 04:50:03.093 DEBUG: GetBrowserWindow(): not found, hwnd = 1246344
+- 04:50:03.093 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:50:03.093 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:50:03.093 DEBUG: StoreBrowserWindow(): hwnd = 1246344
+- 04:50:03.234 DEBUG: ClientHandler::OnAfterCreated()
+- 04:50:03.234 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:50:03.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=ABE4C858F1AD2EEF34DCF16D1806116A --mojo-platform-channel-handle=1736 /prefetch:2
+- 04:50:03.234 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:50:03.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=14B9AC73CD9656E895863364FD09D0FE --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=14B9AC73CD9656E895863364FD09D0FE --renderer-client-id=3 --mojo-platform-channel-handle=2352 /prefetch:1
+[0615/045003.843:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 04:50:03.094 DEBUG: OnBrowserCreated()
+[0615/045005.230:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -107
+- 04:50:05.765 DEBUG: OnLoadError, errorCode=-107, failedUrl=https://127.0.0.1:50183/Login
+- 04:50:05.781 INFO: GET 302 /
+- 04:50:29.000 INFO: --------------------------------------------------------
+- 04:50:29.000 INFO: Started application
+- 04:50:29.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 04:50:29.000 INFO: Log level = DEBUG4
+- 04:50:29.000 INFO: Starting Mongoose 3.9c web server
+- 04:50:29.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 04:50:29.000 INFO: Index files: index.html,index.php
+- 04:50:29.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 04:50:29.000 INFO: CGI pattern: **.php$
+- 04:50:29.000 INFO: Hide files patterns: 
+- 04:50:29.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 04:50:29.016 INFO: Web server url: http://127.0.0.1:50189/
+- 04:50:29.016 INFO: remote_debugging_port = 61212
+- 04:50:29.016 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=61212
+- 04:50:29.094 DEBUG: App::OnContextInitialized()
+- 04:50:29.094 DEBUG: Window max width/height = 1286/720
+- 04:50:29.094 DEBUG: GetBrowserWindow(): not found, hwnd = 2753870
+- 04:50:29.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:50:29.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:50:29.094 DEBUG: StoreBrowserWindow(): hwnd = 2753870
+- 04:50:29.219 DEBUG: ClientHandler::OnAfterCreated()
+- 04:50:29.219 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:50:29.219 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:50:29.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=7158A786A1DDBE2EC628D1758CEEC2D7 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=7158A786A1DDBE2EC628D1758CEEC2D7 --renderer-client-id=3 --mojo-platform-channel-handle=2340 /prefetch:1
+- 04:50:29.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=FBAFF6C82E10120E37E0452F9F590C0D --mojo-platform-channel-handle=1744 /prefetch:2
+- 04:50:29.078 DEBUG: OnBrowserCreated()
+[0615/045029.979:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 04:50:31.625 INFO: GET 200 /
+- 04:50:31.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50189/
+- 04:50:40.047 DEBUG: WM_DESTROY
+- 04:50:40.047 DEBUG: RemoveBrowserWindow(): hwnd = 2753870
+- 04:50:40.047 INFO: Stopping Mongoose web server
+- 04:50:40.047 DEBUG: Mongoose webserver stopped immediately
+- 04:50:40.047 DEBUG: OnBeforeClose() hwnd=1181038
+- 04:50:40.047 DEBUG: RemoveBrowserWindow(): hwnd = 1181038
+- 04:50:40.047 DEBUG: GetBrowserWindow(): not found, hwnd = 1181038
+- 04:50:40.047 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:50:40.047 DEBUG: Calling CefQuitMessageLoop()
+- 04:50:40.219 INFO: Ended application
+- 04:50:40.219 INFO: --------------------------------------------------------
+- 04:53:02.000 INFO: --------------------------------------------------------
+- 04:53:02.000 INFO: Started application
+- 04:53:02.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 04:53:02.000 INFO: Log level = DEBUG4
+- 04:53:02.000 INFO: Starting Mongoose 3.9c web server
+- 04:53:02.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 04:53:02.000 INFO: Index files: index.html,index.php
+- 04:53:02.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 04:53:02.000 INFO: CGI pattern: **.php$
+- 04:53:02.000 INFO: Hide files patterns: 
+- 04:53:02.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 04:53:02.000 INFO: Web server url: http://127.0.0.1:50199/
+- 04:53:02.015 INFO: remote_debugging_port = 52507
+- 04:53:02.015 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=52507
+- 04:53:02.078 DEBUG: App::OnContextInitialized()
+- 04:53:02.078 DEBUG: Window max width/height = 1286/720
+- 04:53:02.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1246638
+- 04:53:02.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:53:02.093 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:53:02.093 DEBUG: StoreBrowserWindow(): hwnd = 1246638
+- 04:53:02.172 DEBUG: ClientHandler::OnAfterCreated()
+- 04:53:02.172 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:53:02.187 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:53:02.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=1B93A484DA0A0A890D1B95A9BADDA153 --mojo-platform-channel-handle=1744 /prefetch:2
+- 04:53:02.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=705A6D0DA5A57DD6DC6FFBD9698F5C34 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=705A6D0DA5A57DD6DC6FFBD9698F5C34 --renderer-client-id=3 --mojo-platform-channel-handle=2352 /prefetch:1
+- 04:53:03.110 DEBUG: OnBrowserCreated()
+[0615/045303.118:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 04:53:04.672 INFO: GET 500 /
+- 04:53:04.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50199/
+- 04:53:11.562 DEBUG: WM_DESTROY
+- 04:53:11.562 DEBUG: RemoveBrowserWindow(): hwnd = 1246638
+- 04:53:11.562 INFO: Stopping Mongoose web server
+- 04:53:11.562 DEBUG: Mongoose webserver stopped immediately
+- 04:53:11.578 DEBUG: OnBeforeClose() hwnd=1377822
+- 04:53:11.578 DEBUG: RemoveBrowserWindow(): hwnd = 1377822
+- 04:53:11.578 DEBUG: GetBrowserWindow(): not found, hwnd = 1377822
+- 04:53:11.578 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:53:11.578 DEBUG: Calling CefQuitMessageLoop()
+- 04:53:11.703 INFO: Ended application
+- 04:53:11.703 INFO: --------------------------------------------------------
+- 04:56:16.000 INFO: --------------------------------------------------------
+- 04:56:16.000 INFO: Started application
+- 04:56:16.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 04:56:16.000 INFO: Log level = DEBUG4
+- 04:56:16.000 INFO: Starting Mongoose 3.9c web server
+- 04:56:16.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 04:56:16.000 INFO: Index files: index.html,index.php
+- 04:56:16.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 04:56:16.000 INFO: CGI pattern: **.php$
+- 04:56:16.000 INFO: Hide files patterns: 
+- 04:56:16.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 04:56:16.000 INFO: Web server url: http://127.0.0.1:50219/
+- 04:56:16.000 INFO: remote_debugging_port = 55798
+- 04:56:16.000 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=55798
+- 04:56:17.094 DEBUG: App::OnContextInitialized()
+- 04:56:17.094 DEBUG: Window max width/height = 1286/720
+- 04:56:17.094 DEBUG: GetBrowserWindow(): not found, hwnd = 2557522
+- 04:56:17.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:56:17.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:56:17.094 DEBUG: StoreBrowserWindow(): hwnd = 2557522
+- 04:56:17.187 DEBUG: ClientHandler::OnAfterCreated()
+- 04:56:17.187 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:56:17.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:56:17.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=115030AD63DCEFB0AE1CAE6342888E95 --mojo-platform-channel-handle=1824 /prefetch:2
+- 04:56:17.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=835FECA98C3D702A8F541E9243A0B9CC --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=835FECA98C3D702A8F541E9243A0B9CC --renderer-client-id=3 --mojo-platform-channel-handle=2336 /prefetch:1
+- 04:56:17.078 DEBUG: OnBrowserCreated()
+[0615/045617.319:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 04:56:18.719 INFO: GET 200 /
+- 04:56:18.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50219/
+- 04:56:21.297 DEBUG: WM_DESTROY
+- 04:56:21.297 DEBUG: RemoveBrowserWindow(): hwnd = 2557522
+- 04:56:21.297 INFO: Stopping Mongoose web server
+- 04:56:21.297 DEBUG: Mongoose webserver stopped immediately
+- 04:56:21.297 DEBUG: OnBeforeClose() hwnd=3605922
+- 04:56:21.297 DEBUG: RemoveBrowserWindow(): hwnd = 3605922
+- 04:56:21.297 DEBUG: GetBrowserWindow(): not found, hwnd = 3605922
+- 04:56:21.297 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:56:21.297 DEBUG: Calling CefQuitMessageLoop()
+- 04:56:21.640 INFO: Ended application
+- 04:56:21.640 INFO: --------------------------------------------------------
+- 04:56:39.000 INFO: --------------------------------------------------------
+- 04:56:39.000 INFO: Started application
+- 04:56:39.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 04:56:39.000 INFO: Log level = DEBUG4
+- 04:56:39.000 INFO: Starting Mongoose 3.9c web server
+- 04:56:39.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 04:56:39.000 INFO: Index files: index.html,index.php
+- 04:56:39.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 04:56:39.000 INFO: CGI pattern: **.php$
+- 04:56:39.000 INFO: Hide files patterns: 
+- 04:56:39.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 04:56:39.016 INFO: Web server url: http://127.0.0.1:50222/
+- 04:56:39.016 INFO: remote_debugging_port = 58301
+- 04:56:39.016 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=58301
+- 04:56:39.078 DEBUG: App::OnContextInitialized()
+- 04:56:39.078 DEBUG: Window max width/height = 1286/720
+- 04:56:39.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1836610
+- 04:56:39.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:56:39.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:56:39.078 DEBUG: StoreBrowserWindow(): hwnd = 1836610
+- 04:56:39.203 DEBUG: ClientHandler::OnAfterCreated()
+- 04:56:39.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:56:39.235 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:56:39.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=6D15D15D526CF3282FB8A53AEA3F000C --mojo-platform-channel-handle=1736 /prefetch:2
+- 04:56:39.015 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=1BB61E09596283BDC66900FB30E9EEB3 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1BB61E09596283BDC66900FB30E9EEB3 --renderer-client-id=3 --mojo-platform-channel-handle=2352 /prefetch:1
+- 04:56:39.078 DEBUG: OnBrowserCreated()
+[0615/045639.480:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 04:56:40.641 INFO: GET 500 /
+- 04:56:40.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50222/
+- 04:57:22.000 INFO: --------------------------------------------------------
+- 04:57:22.000 INFO: Started application
+- 04:57:22.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 04:57:22.000 INFO: Log level = DEBUG4
+- 04:57:22.000 INFO: Starting Mongoose 3.9c web server
+- 04:57:22.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 04:57:22.000 INFO: Index files: index.html,index.php
+- 04:57:22.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 04:57:22.000 INFO: CGI pattern: **.php$
+- 04:57:22.000 INFO: Hide files patterns: 
+- 04:57:22.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 04:57:22.015 INFO: Web server url: http://127.0.0.1:50226/
+- 04:57:22.015 INFO: remote_debugging_port = 51496
+- 04:57:22.015 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=51496
+- 04:57:22.094 DEBUG: App::OnContextInitialized()
+- 04:57:22.094 DEBUG: Window max width/height = 1286/720
+- 04:57:22.094 DEBUG: GetBrowserWindow(): not found, hwnd = 2229614
+- 04:57:22.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 04:57:22.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 04:57:22.094 DEBUG: StoreBrowserWindow(): hwnd = 2229614
+- 04:57:22.219 DEBUG: ClientHandler::OnAfterCreated()
+- 04:57:22.219 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 04:57:22.015 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=C6DC326015D89C110B5D7D5996BC6A56 --mojo-platform-channel-handle=1736 /prefetch:2
+- 04:57:22.250 DEBUG: OnLoadingStateChange: loading=1, url=
+- 04:57:22.015 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=F4825FEE1FB51DCD81FA81B1D84C62A4 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=F4825FEE1FB51DCD81FA81B1D84C62A4 --renderer-client-id=3 --mojo-platform-channel-handle=2356 /prefetch:1
+- 04:57:22.062 DEBUG: OnBrowserCreated()
+[0615/045722.913:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0615/045722.913:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\AR\Documents\spk_rjb\webcache\GPUCache to C:\Users\AR\Documents\spk_rjb\webcache\old_GPUCache_000
+[0615/045722.945:ERROR:disk_cache.cc(132)] Unable to create cache
+[0615/045722.945:ERROR:shader_disk_cache.cc(593)] Shader Cache Creation failed: -2
+[0615/045722.953:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0615/045722.953:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\AR\Documents\spk_rjb\webcache\Cache to C:\Users\AR\Documents\spk_rjb\webcache\old_Cache_000
+[0615/045722.953:ERROR:disk_cache.cc(132)] Unable to create cache
+[0615/045722.961:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 04:57:24.859 INFO: GET 200 /
+- 04:57:24.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50226/
+- 04:57:26.047 DEBUG: WM_DESTROY
+- 04:57:26.047 DEBUG: RemoveBrowserWindow(): hwnd = 2229614
+- 04:57:26.047 INFO: Stopping Mongoose web server
+- 04:57:26.047 DEBUG: Mongoose webserver stopped immediately
+- 04:57:26.062 DEBUG: OnBeforeClose() hwnd=1050008
+- 04:57:26.062 DEBUG: RemoveBrowserWindow(): hwnd = 1050008
+- 04:57:26.062 DEBUG: GetBrowserWindow(): not found, hwnd = 1050008
+- 04:57:26.062 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 04:57:26.062 DEBUG: Calling CefQuitMessageLoop()
+- 04:57:26.234 INFO: Ended application
+- 04:57:26.234 INFO: --------------------------------------------------------
+- 05:00:15.000 INFO: --------------------------------------------------------
+- 05:00:15.000 INFO: Started application
+- 05:00:15.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:00:15.000 INFO: Log level = DEBUG4
+- 05:00:15.000 INFO: Starting Mongoose 3.9c web server
+- 05:00:15.015 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:00:15.015 INFO: Index files: index.html,index.php
+- 05:00:15.015 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:00:15.015 INFO: CGI pattern: **.php$
+- 05:00:15.015 INFO: Hide files patterns: 
+- 05:00:15.015 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:00:15.015 INFO: Web server url: http://127.0.0.1:50235/
+- 05:00:15.015 INFO: remote_debugging_port = 63879
+- 05:00:15.015 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=63879
+- 05:00:15.093 DEBUG: App::OnContextInitialized()
+- 05:00:15.093 DEBUG: Window max width/height = 1286/720
+- 05:00:15.093 DEBUG: GetBrowserWindow(): not found, hwnd = 1967484
+- 05:00:15.093 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:00:15.093 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:00:15.093 DEBUG: StoreBrowserWindow(): hwnd = 1967484
+- 05:00:15.218 DEBUG: ClientHandler::OnAfterCreated()
+- 05:00:15.218 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:00:15.234 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:00:15.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=C127A340A84D67150FD2C81681FABDB2 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=C127A340A84D67150FD2C81681FABDB2 --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+- 05:00:15.016 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=A2004ED2E65B446A293127D393CC43ED --mojo-platform-channel-handle=1816 /prefetch:2
+- 05:00:16.094 DEBUG: OnBrowserCreated()
+[0615/050016.085:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0615/050016.085:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\AR\Documents\spk_rjb\webcache\Cache to C:\Users\AR\Documents\spk_rjb\webcache\old_Cache_000
+[0615/050016.085:ERROR:disk_cache.cc(132)] Unable to create cache
+[0615/050016.093:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0615/050016.093:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\AR\Documents\spk_rjb\webcache\GPUCache to C:\Users\AR\Documents\spk_rjb\webcache\old_GPUCache_000
+[0615/050016.093:ERROR:disk_cache.cc(132)] Unable to create cache
+[0615/050016.093:ERROR:shader_disk_cache.cc(593)] Shader Cache Creation failed: -2
+[0615/050016.109:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:00:17.000 INFO: GET 200 /
+- 05:00:17.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50235/
+- 05:00:22.953 DEBUG: WM_DESTROY
+- 05:00:22.953 DEBUG: RemoveBrowserWindow(): hwnd = 1967484
+- 05:00:22.953 INFO: Stopping Mongoose web server
+- 05:00:22.953 DEBUG: Mongoose webserver stopped immediately
+- 05:00:22.968 DEBUG: OnBeforeClose() hwnd=788080
+- 05:00:22.968 DEBUG: RemoveBrowserWindow(): hwnd = 788080
+- 05:00:22.968 DEBUG: GetBrowserWindow(): not found, hwnd = 788080
+- 05:00:22.968 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:00:22.968 DEBUG: Calling CefQuitMessageLoop()
+- 05:00:22.093 INFO: Ended application
+- 05:00:22.093 INFO: --------------------------------------------------------
+- 05:00:34.282 DEBUG: WM_DESTROY
+- 05:00:34.282 DEBUG: RemoveBrowserWindow(): hwnd = 1836610
+- 05:00:34.282 INFO: Stopping Mongoose web server
+- 05:00:34.282 DEBUG: Mongoose webserver stopped immediately
+- 05:00:34.297 DEBUG: OnBeforeClose() hwnd=591450
+- 05:00:34.297 DEBUG: RemoveBrowserWindow(): hwnd = 591450
+- 05:00:34.297 DEBUG: GetBrowserWindow(): not found, hwnd = 591450
+- 05:00:34.297 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:00:34.297 DEBUG: Calling CefQuitMessageLoop()
+- 05:00:34.375 INFO: Ended application
+- 05:00:34.375 INFO: --------------------------------------------------------
+- 05:01:10.000 INFO: --------------------------------------------------------
+- 05:01:10.000 INFO: Started application
+- 05:01:10.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:01:10.000 INFO: Log level = DEBUG4
+- 05:01:10.000 INFO: Starting Mongoose 3.9c web server
+- 05:01:10.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:01:10.000 INFO: Index files: index.html,index.php
+- 05:01:10.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:01:10.000 INFO: CGI pattern: **.php$
+- 05:01:10.000 INFO: Hide files patterns: 
+- 05:01:10.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:01:10.016 INFO: Web server url: http://127.0.0.1:50239/
+- 05:01:10.016 INFO: remote_debugging_port = 54832
+- 05:01:10.016 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=54832
+- 05:01:10.078 DEBUG: App::OnContextInitialized()
+- 05:01:10.078 DEBUG: Window max width/height = 1286/720
+- 05:01:10.078 DEBUG: GetBrowserWindow(): not found, hwnd = 460118
+- 05:01:10.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:01:10.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:01:10.094 DEBUG: StoreBrowserWindow(): hwnd = 460118
+- 05:01:10.219 DEBUG: ClientHandler::OnAfterCreated()
+- 05:01:10.219 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:01:10.234 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:01:10.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=87F4F7C0EAC3E63FDA9C403B795405F8 --mojo-platform-channel-handle=1840 /prefetch:2
+- 05:01:10.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=8F79D21D0F66D5C1BA3D06D54F386F75 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=8F79D21D0F66D5C1BA3D06D54F386F75 --renderer-client-id=3 --mojo-platform-channel-handle=2348 /prefetch:1
+- 05:01:10.047 DEBUG: OnBrowserCreated()
+[0615/050110.859:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:01:12.641 INFO: GET 200 /
+- 05:01:12.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50239/
+- 05:01:14.641 DEBUG: WM_DESTROY
+- 05:01:14.641 DEBUG: RemoveBrowserWindow(): hwnd = 460118
+- 05:01:14.641 INFO: Stopping Mongoose web server
+- 05:01:14.641 DEBUG: Mongoose webserver stopped immediately
+- 05:01:14.641 DEBUG: OnBeforeClose() hwnd=984296
+- 05:01:14.641 DEBUG: RemoveBrowserWindow(): hwnd = 984296
+- 05:01:14.641 DEBUG: GetBrowserWindow(): not found, hwnd = 984296
+- 05:01:14.641 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:01:14.641 DEBUG: Calling CefQuitMessageLoop()
+- 05:01:14.734 INFO: Ended application
+- 05:01:14.734 INFO: --------------------------------------------------------
+- 05:04:35.000 INFO: --------------------------------------------------------
+- 05:04:35.000 INFO: Started application
+- 05:04:35.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:04:35.000 INFO: Log level = DEBUG4
+- 05:04:35.000 INFO: Starting Mongoose 3.9c web server
+- 05:04:35.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:04:35.000 INFO: Index files: index.html,index.php
+- 05:04:35.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:04:35.000 INFO: CGI pattern: **.php$
+- 05:04:35.000 INFO: Hide files patterns: 
+- 05:04:35.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:04:35.000 INFO: Web server url: http://127.0.0.1:50285/
+- 05:04:35.015 INFO: remote_debugging_port = 55324
+- 05:04:35.015 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=55324
+- 05:04:35.078 DEBUG: App::OnContextInitialized()
+- 05:04:35.078 DEBUG: Window max width/height = 1286/720
+- 05:04:35.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1181232
+- 05:04:35.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:04:35.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:04:35.078 DEBUG: StoreBrowserWindow(): hwnd = 1181232
+- 05:04:35.203 DEBUG: ClientHandler::OnAfterCreated()
+- 05:04:35.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:04:35.218 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:04:35.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=FDFF8A819913887879B5F0569B488E7A --mojo-platform-channel-handle=1840 /prefetch:2
+- 05:04:35.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=425A5A1B263BBBDB7D90131FD424C101 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=425A5A1B263BBBDB7D90131FD424C101 --renderer-client-id=3 --mojo-platform-channel-handle=2340 /prefetch:1
+- 05:04:35.078 DEBUG: OnBrowserCreated()
+[0615/050435.836:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:04:37.000 INFO: GET 200 /
+- 05:04:37.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50285/
+- 05:04:56.359 DEBUG: WM_DESTROY
+- 05:04:56.359 DEBUG: RemoveBrowserWindow(): hwnd = 1181232
+- 05:04:56.359 INFO: Stopping Mongoose web server
+- 05:04:56.359 DEBUG: Mongoose webserver stopped immediately
+- 05:04:56.359 DEBUG: OnBeforeClose() hwnd=263656
+- 05:04:56.359 DEBUG: RemoveBrowserWindow(): hwnd = 263656
+- 05:04:56.359 DEBUG: GetBrowserWindow(): not found, hwnd = 263656
+- 05:04:56.359 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:04:56.359 DEBUG: Calling CefQuitMessageLoop()
+- 05:04:56.515 INFO: Ended application
+- 05:04:56.515 INFO: --------------------------------------------------------
+- 05:05:15.000 INFO: --------------------------------------------------------
+- 05:05:15.000 INFO: Started application
+- 05:05:15.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:05:15.000 INFO: Log level = DEBUG4
+- 05:05:15.000 INFO: Starting Mongoose 3.9c web server
+- 05:05:15.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:05:15.000 INFO: Index files: index.html,index.php
+- 05:05:15.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:05:15.000 INFO: CGI pattern: **.php$
+- 05:05:15.000 INFO: Hide files patterns: 
+- 05:05:15.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:05:15.016 INFO: Web server url: http://127.0.0.1:50292/
+- 05:05:15.016 INFO: remote_debugging_port = 58499
+- 05:05:15.016 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=58499
+- 05:05:15.078 DEBUG: App::OnContextInitialized()
+- 05:05:15.078 DEBUG: Window max width/height = 1286/720
+- 05:05:15.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1181336
+- 05:05:15.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:05:15.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:05:15.078 DEBUG: StoreBrowserWindow(): hwnd = 1181336
+- 05:05:15.234 DEBUG: ClientHandler::OnAfterCreated()
+- 05:05:15.234 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:05:15.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=34CD7D0B54B51A7908E05F6F174F5AF1 --mojo-platform-channel-handle=1736 /prefetch:2
+- 05:05:15.250 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:05:15.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=1896F0F64C486F5D5D7C73DC2C8065F9 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1896F0F64C486F5D5D7C73DC2C8065F9 --renderer-client-id=3 --mojo-platform-channel-handle=2340 /prefetch:1
+- 05:05:15.063 DEBUG: OnBrowserCreated()
+[0615/050515.606:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:05:16.656 INFO: GET 200 /
+- 05:05:16.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50292/
+- 05:05:18.422 DEBUG: WM_DESTROY
+- 05:05:18.422 DEBUG: RemoveBrowserWindow(): hwnd = 1181336
+- 05:05:18.422 INFO: Stopping Mongoose web server
+- 05:05:18.422 DEBUG: Mongoose webserver stopped immediately
+- 05:05:18.422 DEBUG: OnBeforeClose() hwnd=394560
+- 05:05:18.422 DEBUG: RemoveBrowserWindow(): hwnd = 394560
+- 05:05:18.422 DEBUG: GetBrowserWindow(): not found, hwnd = 394560
+- 05:05:18.422 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:05:18.422 DEBUG: Calling CefQuitMessageLoop()
+- 05:05:18.656 INFO: Ended application
+- 05:05:18.672 INFO: --------------------------------------------------------
+- 05:06:06.000 INFO: --------------------------------------------------------
+- 05:06:06.000 INFO: Started application
+- 05:06:06.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:06:06.000 INFO: Log level = DEBUG4
+- 05:06:06.000 INFO: Starting Mongoose 3.9c web server
+- 05:06:06.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:06:06.000 INFO: Index files: index.html,index.php
+- 05:06:06.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:06:06.000 INFO: CGI pattern: **.php$
+- 05:06:06.000 INFO: Hide files patterns: 
+- 05:06:06.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:06:06.000 INFO: Web server url: http://127.0.0.1:50318/
+- 05:06:06.000 INFO: remote_debugging_port = 60670
+- 05:06:06.000 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=60670
+- 05:06:06.078 DEBUG: App::OnContextInitialized()
+- 05:06:06.078 DEBUG: Window max width/height = 1286/720
+- 05:06:06.078 DEBUG: GetBrowserWindow(): not found, hwnd = 853596
+- 05:06:06.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:06:06.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:06:06.078 DEBUG: StoreBrowserWindow(): hwnd = 853596
+- 05:06:06.219 DEBUG: ClientHandler::OnAfterCreated()
+- 05:06:06.219 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:06:06.219 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:06:06.016 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=16EABCC2259D1E9F6C3991C51558A160 --mojo-platform-channel-handle=1732 /prefetch:2
+- 05:06:06.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=C512FE450C74D63BC0AAC7F26F2E0877 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=C512FE450C74D63BC0AAC7F26F2E0877 --renderer-client-id=3 --mojo-platform-channel-handle=2348 /prefetch:1
+- 05:06:06.094 DEBUG: OnBrowserCreated()
+[0615/050606.537:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:06:07.687 INFO: GET 302 /
+- 05:06:07.844 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Login
+- 05:06:10.156 DEBUG: WM_DESTROY
+- 05:06:10.156 DEBUG: RemoveBrowserWindow(): hwnd = 853596
+- 05:06:10.156 INFO: Stopping Mongoose web server
+- 05:06:10.156 DEBUG: Mongoose webserver stopped immediately
+- 05:06:10.156 DEBUG: OnBeforeClose() hwnd=3081322
+- 05:06:10.156 DEBUG: RemoveBrowserWindow(): hwnd = 3081322
+- 05:06:10.156 DEBUG: GetBrowserWindow(): not found, hwnd = 3081322
+- 05:06:10.156 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:06:10.156 DEBUG: Calling CefQuitMessageLoop()
+- 05:06:10.312 INFO: Ended application
+- 05:06:10.312 INFO: --------------------------------------------------------
+- 05:07:02.000 INFO: --------------------------------------------------------
+- 05:07:02.000 INFO: Started application
+- 05:07:02.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:07:02.000 INFO: Log level = DEBUG4
+- 05:07:02.000 INFO: Starting Mongoose 3.9c web server
+- 05:07:02.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:07:02.000 INFO: Index files: index.html,index.php
+- 05:07:02.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:07:02.000 INFO: CGI pattern: **.php$
+- 05:07:02.000 INFO: Hide files patterns: 
+- 05:07:02.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:07:02.000 INFO: Web server url: http://127.0.0.1:50322/
+- 05:07:02.000 INFO: remote_debugging_port = 65512
+- 05:07:02.000 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=65512
+- 05:07:02.078 DEBUG: App::OnContextInitialized()
+- 05:07:02.078 DEBUG: Window max width/height = 1286/720
+- 05:07:02.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1312408
+- 05:07:02.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:07:02.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:07:02.078 DEBUG: StoreBrowserWindow(): hwnd = 1312408
+- 05:07:02.203 DEBUG: ClientHandler::OnAfterCreated()
+- 05:07:02.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:07:02.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=B49100D4E836033102A642A8565B151F --mojo-platform-channel-handle=1828 /prefetch:2
+- 05:07:02.219 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:07:02.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=842D46FB8AD818AFF64A8F828DE414BF --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=842D46FB8AD818AFF64A8F828DE414BF --renderer-client-id=3 --mojo-platform-channel-handle=2340 /prefetch:1
+- 05:07:03.062 DEBUG: OnBrowserCreated()
+[0615/050703.065:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0615/050704.291:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -107
+- 05:07:04.640 DEBUG: OnLoadError, errorCode=-107, failedUrl=https://127.0.0.1:50322/Login
+- 05:07:04.640 INFO: GET 302 /
+- 05:08:13.000 INFO: --------------------------------------------------------
+- 05:08:13.000 INFO: Started application
+- 05:08:13.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:08:13.000 INFO: Log level = DEBUG4
+- 05:08:13.000 INFO: Starting Mongoose 3.9c web server
+- 05:08:13.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:08:13.000 INFO: Index files: index.html,index.php
+- 05:08:13.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:08:13.000 INFO: CGI pattern: **.php$
+- 05:08:13.000 INFO: Hide files patterns: 
+- 05:08:13.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:08:13.015 INFO: Web server url: http://127.0.0.1:50330/
+- 05:08:13.015 INFO: remote_debugging_port = 62411
+- 05:08:13.015 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=62411
+- 05:08:13.078 DEBUG: App::OnContextInitialized()
+- 05:08:13.078 DEBUG: Window max width/height = 1286/720
+- 05:08:13.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1508980
+- 05:08:13.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:08:13.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:08:13.078 DEBUG: StoreBrowserWindow(): hwnd = 1508980
+- 05:08:14.171 DEBUG: ClientHandler::OnAfterCreated()
+- 05:08:14.171 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:08:14.187 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:08:14.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=21AC0693A6B87B35E9626F5370EB3F40 --mojo-platform-channel-handle=1840 /prefetch:2
+- 05:08:14.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=C309814BDE1C6C17C3F8E3C18E6436CE --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=C309814BDE1C6C17C3F8E3C18E6436CE --renderer-client-id=3 --mojo-platform-channel-handle=2296 /prefetch:1
+- 05:08:14.078 DEBUG: OnBrowserCreated()
+[0615/050814.277:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:08:15.593 INFO: GET 302 /
+- 05:08:15.625 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Login
+- 05:08:22.484 DEBUG: WM_DESTROY
+- 05:08:22.484 DEBUG: RemoveBrowserWindow(): hwnd = 1508980
+- 05:08:22.484 INFO: Stopping Mongoose web server
+- 05:08:22.484 DEBUG: Mongoose webserver stopped immediately
+- 05:08:22.484 DEBUG: OnBeforeClose() hwnd=787776
+- 05:08:22.484 DEBUG: RemoveBrowserWindow(): hwnd = 787776
+- 05:08:22.484 DEBUG: GetBrowserWindow(): not found, hwnd = 787776
+- 05:08:22.484 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:08:22.484 DEBUG: Calling CefQuitMessageLoop()
+- 05:08:22.640 INFO: Ended application
+- 05:08:22.640 INFO: --------------------------------------------------------
+- 05:08:53.015 INFO: --------------------------------------------------------
+- 05:08:53.015 INFO: Started application
+- 05:08:53.015 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:08:53.015 INFO: Log level = DEBUG4
+- 05:08:53.015 INFO: Starting Mongoose 3.9c web server
+- 05:08:53.015 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:08:53.015 INFO: Index files: index.html,index.php
+- 05:08:53.015 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:08:53.015 INFO: CGI pattern: **.php$
+- 05:08:53.015 INFO: Hide files patterns: 
+- 05:08:53.015 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:08:53.015 INFO: Web server url: http://127.0.0.1:50335/
+- 05:08:53.015 INFO: remote_debugging_port = 50084
+- 05:08:53.015 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=50084
+- 05:08:53.078 DEBUG: App::OnContextInitialized()
+- 05:08:53.078 DEBUG: Window max width/height = 1286/720
+- 05:08:53.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1049438
+- 05:08:53.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:08:53.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:08:53.078 DEBUG: StoreBrowserWindow(): hwnd = 1049438
+- 05:08:53.218 DEBUG: ClientHandler::OnAfterCreated()
+- 05:08:53.218 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:08:53.016 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=EE2AB7C63ED86CC33932568E3699BAAF --mojo-platform-channel-handle=1740 /prefetch:2
+- 05:08:53.234 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:08:53.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=1769538A81F793E9D5AF94C47C02E91C --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1769538A81F793E9D5AF94C47C02E91C --renderer-client-id=3 --mojo-platform-channel-handle=2352 /prefetch:1
+- 05:08:54.079 DEBUG: OnBrowserCreated()
+[0615/050854.028:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0615/050855.245:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -107
+- 05:08:55.609 DEBUG: OnLoadError, errorCode=-107, failedUrl=https://127.0.0.1:50335/Login
+- 05:08:55.640 INFO: GET 302 /
+- 05:09:18.016 INFO: --------------------------------------------------------
+- 05:09:18.016 INFO: Started application
+- 05:09:18.016 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:09:18.016 INFO: Log level = DEBUG4
+- 05:09:18.016 INFO: Starting Mongoose 3.9c web server
+- 05:09:18.016 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:09:18.016 INFO: Index files: index.html,index.php
+- 05:09:18.016 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:09:18.016 INFO: CGI pattern: **.php$
+- 05:09:18.016 INFO: Hide files patterns: 
+- 05:09:18.016 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:09:18.032 INFO: Web server url: http://127.0.0.1:50340/
+- 05:09:18.032 INFO: remote_debugging_port = 61477
+- 05:09:18.032 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=61477
+- 05:09:18.094 DEBUG: App::OnContextInitialized()
+- 05:09:18.094 DEBUG: Window max width/height = 1286/720
+- 05:09:18.094 DEBUG: GetBrowserWindow(): not found, hwnd = 591196
+- 05:09:18.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:09:18.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:09:18.094 DEBUG: StoreBrowserWindow(): hwnd = 591196
+- 05:09:18.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=BB4B764B6F891389F9B1437F27BEDE71 --mojo-platform-channel-handle=1840 /prefetch:2
+- 05:09:18.235 DEBUG: ClientHandler::OnAfterCreated()
+- 05:09:18.235 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:09:18.266 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:09:18.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=0F76703B813BF361C9FCF487B3F5BA81 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0F76703B813BF361C9FCF487B3F5BA81 --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+[0615/050918.850:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:09:18.078 DEBUG: OnBrowserCreated()
+- 05:09:20.625 INFO: GET 302 /
+- 05:09:20.813 INFO: GET 404 /www  /www  /Login
+- 05:09:20.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50340/www%20%20/www%20%20/Login
+- 05:09:26.657 DEBUG: ClientHandler::OnAfterCreated()
+- 05:09:26.657 DEBUG: GetBrowserWindow(): not found, hwnd = 919176
+- 05:09:26.657 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 05:09:26.657 DEBUG: StoreBrowserWindow(): hwnd = 919176
+- 05:09:26.672 DEBUG: Centering popup window relative to its parent
+- 05:09:26.688 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:09:26.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=20CD0FC63F8ECB9A06FEFB5BCE6BEDAC --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=20CD0FC63F8ECB9A06FEFB5BCE6BEDAC --renderer-client-id=4 --mojo-platform-channel-handle=2836 /prefetch:1
+- 05:09:26.031 DEBUG: OnBrowserCreated()
+- 05:09:26.390 DEBUG: OnContextCreated()
+- 05:09:27.563 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 05:09:27.719 DEBUG: OnContextCreated()
+- 05:09:37.797 DEBUG: OnBeforeClose() hwnd=919176
+- 05:09:37.797 DEBUG: RemoveBrowserWindow(): hwnd = 919176
+- 05:09:38.860 DEBUG: WM_DESTROY
+- 05:09:38.860 DEBUG: RemoveBrowserWindow(): hwnd = 591196
+- 05:09:38.860 INFO: Stopping Mongoose web server
+- 05:09:38.860 DEBUG: Mongoose webserver stopped immediately
+- 05:09:38.860 DEBUG: OnBeforeClose() hwnd=3146930
+- 05:09:38.860 DEBUG: RemoveBrowserWindow(): hwnd = 3146930
+- 05:09:38.860 DEBUG: GetBrowserWindow(): not found, hwnd = 3146930
+- 05:09:38.860 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:09:38.860 DEBUG: Calling CefQuitMessageLoop()
+- 05:09:38.032 INFO: Ended application
+- 05:09:38.032 INFO: --------------------------------------------------------
+- 05:10:12.031 INFO: --------------------------------------------------------
+- 05:10:12.031 INFO: Started application
+- 05:10:12.031 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:10:12.031 INFO: Log level = DEBUG4
+- 05:10:12.031 INFO: Starting Mongoose 3.9c web server
+- 05:10:12.031 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:10:12.031 INFO: Index files: index.html,index.php
+- 05:10:12.031 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:10:12.031 INFO: CGI pattern: **.php$
+- 05:10:12.031 INFO: Hide files patterns: 
+- 05:10:12.031 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:10:12.031 INFO: Web server url: http://127.0.0.1:8888/
+- 05:10:12.031 INFO: remote_debugging_port = 59440
+- 05:10:12.031 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=59440
+- 05:10:12.109 DEBUG: App::OnContextInitialized()
+- 05:10:12.109 DEBUG: Window max width/height = 1286/720
+- 05:10:12.109 DEBUG: GetBrowserWindow(): not found, hwnd = 1181058
+- 05:10:12.109 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:10:12.109 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:10:12.109 DEBUG: StoreBrowserWindow(): hwnd = 1181058
+- 05:10:12.234 DEBUG: ClientHandler::OnAfterCreated()
+- 05:10:12.234 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:10:12.250 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:10:12.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=EC433FD422DA1D27EA3696033C09A4A3 --mojo-platform-channel-handle=1748 /prefetch:2
+- 05:10:12.016 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=E87820C721A288380C78CDD6620DB69E --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E87820C721A288380C78CDD6620DB69E --renderer-client-id=3 --mojo-platform-channel-handle=2352 /prefetch:1
+- 05:10:12.109 DEBUG: OnBrowserCreated()
+[0615/051012.854:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:10:14.719 INFO: GET 302 /
+- 05:10:14.750 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Login
+- 05:10:15.281 DEBUG: WM_DESTROY
+- 05:10:15.281 DEBUG: RemoveBrowserWindow(): hwnd = 1181058
+- 05:10:15.281 INFO: Stopping Mongoose web server
+- 05:10:15.281 DEBUG: Mongoose webserver stopped immediately
+- 05:10:15.297 DEBUG: OnBeforeClose() hwnd=984712
+- 05:10:15.297 DEBUG: RemoveBrowserWindow(): hwnd = 984712
+- 05:10:15.297 DEBUG: GetBrowserWindow(): not found, hwnd = 984712
+- 05:10:15.297 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:10:15.297 DEBUG: Calling CefQuitMessageLoop()
+- 05:10:15.375 INFO: Ended application
+- 05:10:15.375 INFO: --------------------------------------------------------
+- 05:11:03.000 INFO: --------------------------------------------------------
+- 05:11:03.000 INFO: Started application
+- 05:11:03.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:11:03.000 INFO: Log level = DEBUG4
+- 05:11:03.000 INFO: Starting Mongoose 3.9c web server
+- 05:11:03.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:11:03.000 INFO: Index files: index.html,index.php
+- 05:11:03.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:11:03.000 INFO: CGI pattern: **.php$
+- 05:11:03.000 INFO: Hide files patterns: 
+- 05:11:03.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:11:03.000 INFO: Web server url: http://127.0.0.1:8888/
+- 05:11:03.000 INFO: remote_debugging_port = 63481
+- 05:11:03.000 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=63481
+- 05:11:04.079 DEBUG: App::OnContextInitialized()
+- 05:11:04.079 DEBUG: Window max width/height = 1286/720
+- 05:11:04.079 DEBUG: GetBrowserWindow(): not found, hwnd = 3343538
+- 05:11:04.079 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:11:04.079 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:11:04.079 DEBUG: StoreBrowserWindow(): hwnd = 3343538
+- 05:11:04.219 DEBUG: ClientHandler::OnAfterCreated()
+- 05:11:04.219 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:11:04.219 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:11:04.016 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=04D43535A7BF9CB293253D29E97C81F8 --mojo-platform-channel-handle=1840 /prefetch:2
+- 05:11:04.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=4B0D499E070354A5763DF563C1DE0089 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=4B0D499E070354A5763DF563C1DE0089 --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+- 05:11:04.094 DEBUG: OnBrowserCreated()
+[0615/051104.326:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:11:05.641 INFO: GET 302 /
+- 05:11:05.672 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Login
+- 05:11:07.094 DEBUG: WM_DESTROY
+- 05:11:07.094 DEBUG: RemoveBrowserWindow(): hwnd = 3343538
+- 05:11:07.094 INFO: Stopping Mongoose web server
+- 05:11:07.094 DEBUG: Mongoose webserver stopped immediately
+- 05:11:07.094 DEBUG: OnBeforeClose() hwnd=3475012
+- 05:11:07.094 DEBUG: RemoveBrowserWindow(): hwnd = 3475012
+- 05:11:07.094 DEBUG: GetBrowserWindow(): not found, hwnd = 3475012
+- 05:11:07.094 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:11:07.094 DEBUG: Calling CefQuitMessageLoop()
+- 05:11:07.344 INFO: Ended application
+- 05:11:07.344 INFO: --------------------------------------------------------
+- 05:11:16.000 INFO: --------------------------------------------------------
+- 05:11:16.000 INFO: Started application
+- 05:11:16.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:11:16.000 INFO: Log level = DEBUG4
+- 05:11:16.000 INFO: Starting Mongoose 3.9c web server
+- 05:11:16.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:11:16.000 INFO: Index files: index.html,index.php
+- 05:11:16.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:11:16.000 INFO: CGI pattern: **.php$
+- 05:11:16.000 INFO: Hide files patterns: 
+- 05:11:16.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:11:16.016 INFO: Web server url: http://127.0.0.1:8888/
+- 05:11:16.016 INFO: remote_debugging_port = 65060
+- 05:11:16.016 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=65060
+- 05:11:16.078 DEBUG: App::OnContextInitialized()
+- 05:11:16.078 DEBUG: Window max width/height = 1286/720
+- 05:11:16.078 DEBUG: GetBrowserWindow(): not found, hwnd = 918884
+- 05:11:16.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:11:16.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:11:16.078 DEBUG: StoreBrowserWindow(): hwnd = 918884
+- 05:11:16.203 DEBUG: ClientHandler::OnAfterCreated()
+- 05:11:16.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:11:16.219 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:11:16.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=8670765D2468E8C58FC68A44571E744B --mojo-platform-channel-handle=1744 /prefetch:2
+- 05:11:16.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=97F616EBB014BFEBD02D4A7DA0D464AA --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=97F616EBB014BFEBD02D4A7DA0D464AA --renderer-client-id=3 --mojo-platform-channel-handle=2356 /prefetch:1
+- 05:11:16.047 DEBUG: OnBrowserCreated()
+[0615/051116.712:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:11:18.719 INFO: GET 302 /
+- 05:11:18.719 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Login
+- 05:11:53.078 DEBUG: OnLoadingStateChange: loading=1, url=http://localhost/Login
+- 05:11:53.094 DEBUG: OnLoadingStateChange: loading=0, url=http://localhost/Login
+- 05:11:55.110 DEBUG: WM_DESTROY
+- 05:11:55.110 DEBUG: RemoveBrowserWindow(): hwnd = 918884
+- 05:11:55.110 INFO: Stopping Mongoose web server
+- 05:11:55.110 DEBUG: Mongoose webserver stopped immediately
+- 05:11:55.110 DEBUG: OnBeforeClose() hwnd=3540548
+- 05:11:55.110 DEBUG: RemoveBrowserWindow(): hwnd = 3540548
+- 05:11:55.110 DEBUG: GetBrowserWindow(): not found, hwnd = 3540548
+- 05:11:55.110 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:11:55.110 DEBUG: Calling CefQuitMessageLoop()
+- 05:11:55.235 INFO: Ended application
+- 05:11:55.235 INFO: --------------------------------------------------------
+- 05:11:56.015 INFO: --------------------------------------------------------
+- 05:11:56.015 INFO: Started application
+- 05:11:56.015 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:11:56.015 INFO: Log level = DEBUG4
+- 05:11:56.015 INFO: Starting Mongoose 3.9c web server
+- 05:11:56.015 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:11:56.015 INFO: Index files: index.html,index.php
+- 05:11:56.015 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:11:56.015 INFO: CGI pattern: **.php$
+- 05:11:56.015 INFO: Hide files patterns: 
+- 05:11:56.015 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:11:56.015 INFO: Web server url: http://127.0.0.1:8888/
+- 05:11:56.015 INFO: remote_debugging_port = 50658
+- 05:11:56.015 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=50658
+- 05:11:56.093 DEBUG: App::OnContextInitialized()
+- 05:11:56.093 DEBUG: Window max width/height = 1286/720
+- 05:11:56.093 DEBUG: GetBrowserWindow(): not found, hwnd = 984420
+- 05:11:56.093 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:11:56.093 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:11:56.093 DEBUG: StoreBrowserWindow(): hwnd = 984420
+- 05:11:56.218 DEBUG: ClientHandler::OnAfterCreated()
+- 05:11:56.218 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:11:56.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=034021FBF05E6FFEAE542882327C85D2 --mojo-platform-channel-handle=1820 /prefetch:2
+- 05:11:56.234 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:11:56.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=AA0AD640124963BEBD2C8A151A230B6B --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=AA0AD640124963BEBD2C8A151A230B6B --renderer-client-id=3 --mojo-platform-channel-handle=2344 /prefetch:1
+- 05:11:56.062 DEBUG: OnBrowserCreated()
+[0615/051157.010:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:11:58.672 INFO: GET 302 /
+- 05:11:58.843 INFO: GET 404 /spk_rjb/spk_rjb/Login
+- 05:11:58.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8888/spk_rjb/spk_rjb/Login
+- 05:12:02.859 INFO: GET 404 /spk_rjb/spk_rjb/Login
+- 05:12:02.140 INFO: GET 404 /favicon.ico
+- 05:12:09.468 DEBUG: WM_DESTROY
+- 05:12:09.468 DEBUG: RemoveBrowserWindow(): hwnd = 984420
+- 05:12:09.468 INFO: Stopping Mongoose web server
+- 05:12:09.468 DEBUG: Mongoose webserver stopped immediately
+- 05:12:09.484 DEBUG: OnBeforeClose() hwnd=1181032
+- 05:12:09.484 DEBUG: RemoveBrowserWindow(): hwnd = 1181032
+- 05:12:09.484 DEBUG: GetBrowserWindow(): not found, hwnd = 1181032
+- 05:12:09.484 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:12:09.484 DEBUG: Calling CefQuitMessageLoop()
+- 05:12:09.547 INFO: Ended application
+- 05:12:09.547 INFO: --------------------------------------------------------
+- 05:12:15.000 INFO: --------------------------------------------------------
+- 05:12:15.000 INFO: Started application
+- 05:12:15.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:12:15.000 INFO: Log level = DEBUG4
+- 05:12:15.000 INFO: Starting Mongoose 3.9c web server
+- 05:12:15.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:12:15.000 INFO: Index files: index.html,index.php
+- 05:12:15.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:12:15.000 INFO: CGI pattern: **.php$
+- 05:12:15.000 INFO: Hide files patterns: 
+- 05:12:15.015 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:12:15.015 INFO: Web server url: http://127.0.0.1:8888/
+- 05:12:15.015 INFO: remote_debugging_port = 51832
+- 05:12:15.015 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=51832
+- 05:12:15.078 DEBUG: App::OnContextInitialized()
+- 05:12:15.078 DEBUG: Window max width/height = 1286/720
+- 05:12:15.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1049956
+- 05:12:15.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:12:15.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:12:15.078 DEBUG: StoreBrowserWindow(): hwnd = 1049956
+- 05:12:15.016 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=F1EC0418711028E3174AAAF7FCF82301 --mojo-platform-channel-handle=1840 /prefetch:2
+- 05:12:15.234 DEBUG: ClientHandler::OnAfterCreated()
+- 05:12:15.234 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:12:15.250 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:12:15.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=0DCE59096F2FF2DB94DE8A58B4F4B251 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0DCE59096F2FF2DB94DE8A58B4F4B251 --renderer-client-id=3 --mojo-platform-channel-handle=2340 /prefetch:1
+- 05:12:15.047 DEBUG: OnBrowserCreated()
+[0615/051215.404:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:12:16.625 INFO: GET 302 /
+- 05:12:16.656 DEBUG: OnContextCreated()
+- 05:12:16.968 INFO: GET 200 /Login
+- 05:12:16.984 INFO: GET 200 /assets/plugins/bootstrap/css/bootstrap.min.css
+- 05:12:17.078 INFO: GET 200 /assets/plugins/sweetalert2/swal.min.js
+- 05:12:17.156 INFO: GET 200 /assets/plugins/bootstrap/js/bootstrap.bundle.min.js
+- 05:12:17.156 INFO: GET 200 /assets/plugins/jquery/jquery.min.js
+- 05:12:17.187 INFO: GET 200 /assets/dist/img/favicon.png
+- 05:12:17.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8888/Login
+- 05:12:27.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8888/Login
+- 05:12:27.578 INFO: POST 200 /Login
+- 05:12:27.281 DEBUG: OnContextCreated()
+- 05:12:27.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8888/Login
+- 05:12:31.468 DEBUG: WM_DESTROY
+- 05:12:31.468 DEBUG: RemoveBrowserWindow(): hwnd = 1049956
+- 05:12:31.468 INFO: Stopping Mongoose web server
+- 05:12:31.468 DEBUG: Mongoose webserver stopped immediately
+- 05:12:31.468 DEBUG: OnBeforeClose() hwnd=2098014
+- 05:12:31.468 DEBUG: RemoveBrowserWindow(): hwnd = 2098014
+- 05:12:31.468 DEBUG: GetBrowserWindow(): not found, hwnd = 2098014
+- 05:12:31.468 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:12:31.468 DEBUG: Calling CefQuitMessageLoop()
+- 05:12:31.656 INFO: Ended application
+- 05:12:31.656 INFO: --------------------------------------------------------
+- 05:12:51.000 INFO: --------------------------------------------------------
+- 05:12:51.000 INFO: Started application
+- 05:12:51.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:12:51.000 INFO: Log level = DEBUG4
+- 05:12:51.000 INFO: Starting Mongoose 3.9c web server
+- 05:12:51.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:12:51.000 INFO: Index files: index.html,index.php
+- 05:12:51.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:12:51.000 INFO: CGI pattern: **.php$
+- 05:12:51.000 INFO: Hide files patterns: 
+- 05:12:51.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:12:51.016 INFO: Web server url: http://127.0.0.1:8888/
+- 05:12:51.016 INFO: remote_debugging_port = 63695
+- 05:12:51.016 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=63695
+- 05:12:51.079 DEBUG: App::OnContextInitialized()
+- 05:12:51.079 DEBUG: Window max width/height = 1286/720
+- 05:12:51.079 DEBUG: GetBrowserWindow(): not found, hwnd = 2557328
+- 05:12:51.079 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:12:51.079 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:12:51.079 DEBUG: StoreBrowserWindow(): hwnd = 2557328
+- 05:12:51.188 DEBUG: ClientHandler::OnAfterCreated()
+- 05:12:51.188 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:12:51.204 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:12:51.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=AD0447A50B98CBD16F2540AACB32B85B --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=AD0447A50B98CBD16F2540AACB32B85B --renderer-client-id=3 --mojo-platform-channel-handle=2340 /prefetch:1
+- 05:12:51.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=CB5273516D13BCB6F526B7C83A1FC944 --mojo-platform-channel-handle=1840 /prefetch:2
+- 05:12:51.094 DEBUG: OnBrowserCreated()
+[0615/051251.568:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:12:52.610 INFO: GET 302 /
+- 05:12:52.797 INFO: GET 200 /Login
+- 05:12:52.531 DEBUG: OnContextCreated()
+- 05:12:53.954 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8888/Login
+- 05:12:55.672 DEBUG: WM_DESTROY
+- 05:12:55.672 DEBUG: RemoveBrowserWindow(): hwnd = 2557328
+- 05:12:55.672 INFO: Stopping Mongoose web server
+- 05:12:55.672 DEBUG: Mongoose webserver stopped immediately
+- 05:12:55.672 DEBUG: OnBeforeClose() hwnd=4785662
+- 05:12:55.672 DEBUG: RemoveBrowserWindow(): hwnd = 4785662
+- 05:12:55.672 DEBUG: GetBrowserWindow(): not found, hwnd = 4785662
+- 05:12:55.672 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:12:55.672 DEBUG: Calling CefQuitMessageLoop()
+- 05:12:55.750 INFO: Ended application
+- 05:12:55.750 INFO: --------------------------------------------------------
+- 05:13:44.016 INFO: --------------------------------------------------------
+- 05:13:44.016 INFO: Started application
+- 05:13:44.016 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:13:44.016 INFO: Log level = DEBUG4
+- 05:13:44.016 INFO: Starting Mongoose 3.9c web server
+- 05:13:44.016 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:13:44.016 INFO: Index files: index.html,index.php
+- 05:13:44.016 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:13:44.016 INFO: CGI pattern: **.php$
+- 05:13:44.016 INFO: Hide files patterns: 
+- 05:13:44.016 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:13:44.016 INFO: Web server url: http://127.0.0.1:8888/
+- 05:13:44.016 INFO: remote_debugging_port = 59539
+- 05:13:44.016 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=59539
+- 05:13:44.094 DEBUG: App::OnContextInitialized()
+- 05:13:44.094 DEBUG: Window max width/height = 1286/720
+- 05:13:44.094 DEBUG: GetBrowserWindow(): not found, hwnd = 1246694
+- 05:13:44.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:13:44.110 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:13:44.110 DEBUG: StoreBrowserWindow(): hwnd = 1246694
+- 05:13:44.204 DEBUG: ClientHandler::OnAfterCreated()
+- 05:13:44.204 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:13:44.219 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:13:44.015 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=C33DE1A3239DCE6E039A2AFFB3EE53F6 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=C33DE1A3239DCE6E039A2AFFB3EE53F6 --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+- 05:13:44.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=F09652C270147BAFD4212047DE31F5DC --mojo-platform-channel-handle=1740 /prefetch:2
+- 05:13:44.125 DEBUG: OnBrowserCreated()
+[0615/051344.628:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:13:45.704 INFO: GET 500 /
+- 05:13:45.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8888/
+- 05:13:50.657 DEBUG: WM_DESTROY
+- 05:13:50.657 DEBUG: RemoveBrowserWindow(): hwnd = 1246694
+- 05:13:50.657 INFO: Stopping Mongoose web server
+- 05:13:50.657 DEBUG: Mongoose webserver stopped immediately
+- 05:13:50.657 DEBUG: OnBeforeClose() hwnd=1836380
+- 05:13:50.657 DEBUG: RemoveBrowserWindow(): hwnd = 1836380
+- 05:13:50.657 DEBUG: GetBrowserWindow(): not found, hwnd = 1836380
+- 05:13:50.657 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:13:50.657 DEBUG: Calling CefQuitMessageLoop()
+- 05:13:51.000 INFO: Ended application
+- 05:13:51.000 INFO: --------------------------------------------------------
+- 05:13:59.000 INFO: --------------------------------------------------------
+- 05:13:59.000 INFO: Started application
+- 05:13:59.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:13:59.000 INFO: Log level = DEBUG4
+- 05:13:59.000 INFO: Starting Mongoose 3.9c web server
+- 05:13:59.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:13:59.000 INFO: Index files: index.html,index.php
+- 05:13:59.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:13:59.000 INFO: CGI pattern: **.php$
+- 05:13:59.000 INFO: Hide files patterns: 
+- 05:13:59.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:13:59.000 INFO: Web server url: http://127.0.0.1:8888/
+- 05:13:59.000 INFO: remote_debugging_port = 55130
+- 05:13:59.000 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=55130
+- 05:13:59.078 DEBUG: App::OnContextInitialized()
+- 05:13:59.078 DEBUG: Window max width/height = 1286/720
+- 05:13:59.078 DEBUG: GetBrowserWindow(): not found, hwnd = 2688428
+- 05:13:59.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:13:59.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:13:59.078 DEBUG: StoreBrowserWindow(): hwnd = 2688428
+- 05:13:59.203 DEBUG: ClientHandler::OnAfterCreated()
+- 05:13:59.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:13:59.235 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:13:59.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=455F7401292F8CB4E62466DA2AA9383C --mojo-platform-channel-handle=1836 /prefetch:2
+- 05:13:59.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=C78C1E8A59F5A3423BFE040DA3D75FCB --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=C78C1E8A59F5A3423BFE040DA3D75FCB --renderer-client-id=3 --mojo-platform-channel-handle=2348 /prefetch:1
+- 05:13:59.093 DEBUG: OnBrowserCreated()
+[0615/051359.754:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:14:01.657 INFO: GET 500 /
+- 05:14:01.782 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8888/
+- 05:14:03.141 DEBUG: WM_DESTROY
+- 05:14:03.141 DEBUG: RemoveBrowserWindow(): hwnd = 2688428
+- 05:14:03.141 INFO: Stopping Mongoose web server
+- 05:14:03.141 DEBUG: Mongoose webserver stopped immediately
+- 05:14:03.141 DEBUG: OnBeforeClose() hwnd=5440782
+- 05:14:03.141 DEBUG: RemoveBrowserWindow(): hwnd = 5440782
+- 05:14:03.141 DEBUG: GetBrowserWindow(): not found, hwnd = 5440782
+- 05:14:03.141 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:14:03.141 DEBUG: Calling CefQuitMessageLoop()
+- 05:14:03.219 INFO: Ended application
+- 05:14:03.219 INFO: --------------------------------------------------------
+- 05:15:25.000 INFO: --------------------------------------------------------
+- 05:15:25.000 INFO: Started application
+- 05:15:25.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:15:25.000 INFO: Log level = DEBUG4
+- 05:15:25.000 INFO: Starting Mongoose 3.9c web server
+- 05:15:25.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:15:25.000 INFO: Index files: index.html,index.php
+- 05:15:25.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:15:25.000 INFO: CGI pattern: **.php$
+- 05:15:25.000 INFO: Hide files patterns: 
+- 05:15:25.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:15:25.016 INFO: Web server url: http://127.0.0.1:8888/
+- 05:15:25.016 INFO: remote_debugging_port = 58402
+- 05:15:25.016 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=58402
+- 05:15:25.078 DEBUG: App::OnContextInitialized()
+- 05:15:25.078 DEBUG: Window max width/height = 1286/720
+- 05:15:25.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1967452
+- 05:15:25.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:15:25.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:15:25.094 DEBUG: StoreBrowserWindow(): hwnd = 1967452
+- 05:15:25.187 DEBUG: ClientHandler::OnAfterCreated()
+- 05:15:25.187 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:15:25.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:15:25.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=3D9A6F9895E7FDBC85CF7DA16BEA6D84 --mojo-platform-channel-handle=1744 /prefetch:2
+- 05:15:25.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=57CF5F6D3143102BD44A6E69737DD9D0 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=57CF5F6D3143102BD44A6E69737DD9D0 --renderer-client-id=3 --mojo-platform-channel-handle=2352 /prefetch:1
+- 05:15:25.094 DEBUG: OnBrowserCreated()
+[0615/051525.777:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:15:27.641 INFO: GET 500 /
+- 05:15:27.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8888/
+- 05:15:30.109 DEBUG: WM_DESTROY
+- 05:15:30.109 DEBUG: RemoveBrowserWindow(): hwnd = 1967452
+- 05:15:30.109 INFO: Stopping Mongoose web server
+- 05:15:30.109 DEBUG: Mongoose webserver stopped immediately
+- 05:15:30.109 DEBUG: OnBeforeClose() hwnd=4982270
+- 05:15:30.109 DEBUG: RemoveBrowserWindow(): hwnd = 4982270
+- 05:15:30.109 DEBUG: GetBrowserWindow(): not found, hwnd = 4982270
+- 05:15:30.109 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:15:30.109 DEBUG: Calling CefQuitMessageLoop()
+- 05:15:30.312 INFO: Ended application
+- 05:15:30.312 INFO: --------------------------------------------------------
+- 05:18:14.000 INFO: --------------------------------------------------------
+- 05:18:14.000 INFO: Started application
+- 05:18:14.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:18:14.000 INFO: Log level = DEBUG4
+- 05:18:14.000 INFO: Starting Mongoose 3.9c web server
+- 05:18:14.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:18:14.000 INFO: Index files: index.html,index.php
+- 05:18:14.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:18:14.000 INFO: CGI pattern: **.php$
+- 05:18:14.000 INFO: Hide files patterns: 
+- 05:18:14.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:18:14.000 INFO: Web server url: http://127.0.0.1:8888/
+- 05:18:14.000 INFO: remote_debugging_port = 63044
+- 05:18:14.000 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=63044
+- 05:18:14.093 DEBUG: App::OnContextInitialized()
+- 05:18:14.093 DEBUG: Window max width/height = 1286/720
+- 05:18:14.093 DEBUG: GetBrowserWindow(): not found, hwnd = 2491914
+- 05:18:14.093 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:18:14.093 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:18:14.093 DEBUG: StoreBrowserWindow(): hwnd = 2491914
+- 05:18:14.234 DEBUG: ClientHandler::OnAfterCreated()
+- 05:18:14.234 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:18:14.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=C05001E84E098EF9D1E5CEAE476F294D --mojo-platform-channel-handle=1840 /prefetch:2
+- 05:18:15.250 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:18:15.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=B75CBD204C6AC926DA79E434B4BE4A45 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=B75CBD204C6AC926DA79E434B4BE4A45 --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+- 05:18:15.047 DEBUG: OnBrowserCreated()
+[0615/051815.142:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:18:16.656 INFO: GET 302 /
+- 05:18:16.500 DEBUG: OnContextCreated()
+- 05:18:16.828 INFO: GET 200 /Login
+- 05:18:16.968 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8888/Login
+- 05:18:56.921 DEBUG: WM_DESTROY
+- 05:18:56.921 DEBUG: RemoveBrowserWindow(): hwnd = 2491914
+- 05:18:56.921 INFO: Stopping Mongoose web server
+- 05:18:56.921 DEBUG: Mongoose webserver stopped immediately
+- 05:18:56.921 DEBUG: OnBeforeClose() hwnd=2032988
+- 05:18:56.921 DEBUG: RemoveBrowserWindow(): hwnd = 2032988
+- 05:18:56.937 DEBUG: GetBrowserWindow(): not found, hwnd = 2032988
+- 05:18:56.937 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:18:56.937 DEBUG: Calling CefQuitMessageLoop()
+- 05:18:56.046 INFO: Ended application
+- 05:18:56.046 INFO: --------------------------------------------------------
+- 05:19:01.016 INFO: --------------------------------------------------------
+- 05:19:01.016 INFO: Started application
+- 05:19:01.016 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:19:01.016 INFO: Log level = DEBUG4
+- 05:19:01.016 INFO: Starting Mongoose 3.9c web server
+- 05:19:01.016 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:19:01.016 INFO: Index files: index.html,index.php
+- 05:19:01.016 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:19:01.016 INFO: CGI pattern: **.php$
+- 05:19:01.016 INFO: Hide files patterns: 
+- 05:19:01.016 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:19:01.016 INFO: Web server url: http://127.0.0.1:8888/
+- 05:19:01.016 INFO: remote_debugging_port = 58560
+- 05:19:01.016 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=58560
+- 05:19:01.078 DEBUG: App::OnContextInitialized()
+- 05:19:01.078 DEBUG: Window max width/height = 1286/720
+- 05:19:01.078 DEBUG: GetBrowserWindow(): not found, hwnd = 3016344
+- 05:19:01.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:19:01.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:19:01.078 DEBUG: StoreBrowserWindow(): hwnd = 3016344
+- 05:19:01.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=E39C077AECEF02DBDE8C0795015AFD17 --mojo-platform-channel-handle=1744 /prefetch:2
+- 05:19:01.234 DEBUG: ClientHandler::OnAfterCreated()
+- 05:19:01.234 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:19:01.250 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:19:01.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=3673EF028F1EB86F3BFEF80E2988C187 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=3673EF028F1EB86F3BFEF80E2988C187 --renderer-client-id=3 --mojo-platform-channel-handle=2344 /prefetch:1
+[0615/051901.486:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:19:01.047 DEBUG: OnBrowserCreated()
+- 05:19:02.687 INFO: GET 302 /
+- 05:19:02.531 DEBUG: OnContextCreated()
+- 05:19:02.859 INFO: GET 200 /Login
+- 05:19:03.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8888/Login
+- 05:21:25.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8888/Login
+- 05:21:25.344 DEBUG: OnContextCreated()
+- 05:21:25.672 INFO: GET 200 /assets/plugins/bootstrap/css/bootstrap.min.css
+- 05:21:25.672 INFO: GET 200 /assets/plugins/jquery/jquery.min.js
+- 05:21:25.672 INFO: GET 200 /assets/plugins/bootstrap/js/bootstrap.bundle.min.js
+- 05:21:25.672 INFO: GET 200 /assets/plugins/sweetalert2/swal.min.js
+- 05:21:25.687 INFO: GET 200 /assets/dist/img/favicon.png
+- 05:21:25.844 INFO: GET 200 /Login
+- 05:21:26.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8888/Login
+- 05:21:28.781 DEBUG: WM_DESTROY
+- 05:21:28.781 DEBUG: RemoveBrowserWindow(): hwnd = 3016344
+- 05:21:28.781 INFO: Stopping Mongoose web server
+- 05:21:28.781 DEBUG: Mongoose webserver stopped immediately
+- 05:21:28.781 DEBUG: OnBeforeClose() hwnd=3081702
+- 05:21:28.781 DEBUG: RemoveBrowserWindow(): hwnd = 3081702
+- 05:21:28.781 DEBUG: GetBrowserWindow(): not found, hwnd = 3081702
+- 05:21:28.781 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:21:28.781 DEBUG: Calling CefQuitMessageLoop()
+- 05:21:29.000 INFO: Ended application
+- 05:21:29.000 INFO: --------------------------------------------------------
+- 05:21:32.000 INFO: --------------------------------------------------------
+- 05:21:32.000 INFO: Started application
+- 05:21:32.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:21:32.000 INFO: Log level = DEBUG4
+- 05:21:32.000 INFO: Starting Mongoose 3.9c web server
+- 05:21:32.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:21:32.000 INFO: Index files: index.html,index.php
+- 05:21:32.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:21:32.000 INFO: CGI pattern: **.php$
+- 05:21:32.000 INFO: Hide files patterns: 
+- 05:21:32.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:21:32.000 INFO: Web server url: http://127.0.0.1:50564/
+- 05:21:32.000 INFO: remote_debugging_port = 55346
+- 05:21:32.000 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=55346
+- 05:21:32.078 DEBUG: App::OnContextInitialized()
+- 05:21:32.078 DEBUG: Window max width/height = 1286/720
+- 05:21:32.078 DEBUG: GetBrowserWindow(): not found, hwnd = 5440874
+- 05:21:32.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:21:32.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:21:32.078 DEBUG: StoreBrowserWindow(): hwnd = 5440874
+- 05:21:33.203 DEBUG: ClientHandler::OnAfterCreated()
+- 05:21:33.219 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:21:33.219 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:21:33.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=20249E539556E73AB9FC4EAF925E7D2C --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=20249E539556E73AB9FC4EAF925E7D2C --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+- 05:21:33.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=90EBEEB3FCAB5BEAC78402D244F95D69 --mojo-platform-channel-handle=1840 /prefetch:2
+- 05:21:33.078 DEBUG: OnBrowserCreated()
+[0615/052133.288:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:21:34.641 INFO: GET 302 /
+- 05:21:34.797 INFO: GET 200 /assets/plugins/bootstrap/css/bootstrap.min.css
+- 05:21:34.797 INFO: GET 200 /assets/plugins/jquery/jquery.min.js
+- 05:21:34.797 INFO: GET 200 /assets/plugins/sweetalert2/swal.min.js
+- 05:21:34.797 INFO: GET 200 /assets/plugins/bootstrap/js/bootstrap.bundle.min.js
+- 05:21:34.500 DEBUG: OnContextCreated()
+- 05:21:34.844 INFO: GET 200 /assets/dist/img/favicon.png
+- 05:21:34.969 INFO: GET 200 /Login
+- 05:21:34.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50564/Login
+- 05:21:37.344 DEBUG: WM_DESTROY
+- 05:21:37.344 DEBUG: RemoveBrowserWindow(): hwnd = 5440874
+- 05:21:37.344 INFO: Stopping Mongoose web server
+- 05:21:37.344 DEBUG: Mongoose webserver stopped immediately
+- 05:21:37.344 DEBUG: OnBeforeClose() hwnd=8062388
+- 05:21:37.344 DEBUG: RemoveBrowserWindow(): hwnd = 8062388
+- 05:21:37.344 DEBUG: GetBrowserWindow(): not found, hwnd = 8062388
+- 05:21:37.344 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:21:37.344 DEBUG: Calling CefQuitMessageLoop()
+- 05:21:37.422 INFO: Ended application
+- 05:21:37.422 INFO: --------------------------------------------------------
+- 05:23:17.000 INFO: --------------------------------------------------------
+- 05:23:17.000 INFO: Started application
+- 05:23:17.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:23:17.000 INFO: Log level = DEBUG4
+- 05:23:17.000 INFO: Starting Mongoose 3.9c web server
+- 05:23:17.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:23:17.000 INFO: Index files: index.html,index.php
+- 05:23:17.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:23:17.000 INFO: CGI pattern: **.php$
+- 05:23:17.000 INFO: Hide files patterns: 
+- 05:23:17.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:23:17.000 INFO: Web server url: http://127.0.0.1:50586/
+- 05:23:17.000 INFO: remote_debugging_port = 64520
+- 05:23:17.000 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=64520
+- 05:23:17.078 DEBUG: App::OnContextInitialized()
+- 05:23:17.078 DEBUG: Window max width/height = 1286/720
+- 05:23:17.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1901926
+- 05:23:17.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:23:17.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:23:17.078 DEBUG: StoreBrowserWindow(): hwnd = 1901926
+- 05:23:17.203 DEBUG: ClientHandler::OnAfterCreated()
+- 05:23:17.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:23:17.218 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:23:17.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=678D20E3A34316CAA7F626880927B412 --mojo-platform-channel-handle=1828 /prefetch:2
+- 05:23:17.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=77897D632B7C61F19860146DBBD99EA6 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=77897D632B7C61F19860146DBBD99EA6 --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+[0615/052317.855:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:23:17.047 DEBUG: OnBrowserCreated()
+- 05:23:19.937 INFO: GET 302 /
+- 05:23:19.093 INFO: GET 200 /assets/plugins/bootstrap/css/bootstrap.min.css
+- 05:23:19.093 INFO: GET 200 /assets/plugins/jquery/jquery.min.js
+- 05:23:19.656 DEBUG: OnContextCreated()
+- 05:23:19.125 INFO: GET 200 /assets/plugins/bootstrap/js/bootstrap.bundle.min.js
+- 05:23:19.125 INFO: GET 200 /assets/plugins/sweetalert2/swal.min.js
+- 05:23:19.140 INFO: GET 200 /assets/dist/img/favicon.png
+- 05:23:19.281 INFO: GET 200 /Login
+- 05:23:19.390 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50586/Login
+- 05:23:22.203 DEBUG: WM_DESTROY
+- 05:23:22.203 DEBUG: RemoveBrowserWindow(): hwnd = 1901926
+- 05:23:22.203 INFO: Stopping Mongoose web server
+- 05:23:22.203 DEBUG: Mongoose webserver stopped immediately
+- 05:23:22.203 DEBUG: OnBeforeClose() hwnd=2884964
+- 05:23:22.203 DEBUG: RemoveBrowserWindow(): hwnd = 2884964
+- 05:23:22.203 DEBUG: GetBrowserWindow(): not found, hwnd = 2884964
+- 05:23:22.203 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:23:22.203 DEBUG: Calling CefQuitMessageLoop()
+- 05:23:22.406 INFO: Ended application
+- 05:23:22.406 INFO: --------------------------------------------------------
+- 05:24:28.000 INFO: --------------------------------------------------------
+- 05:24:28.000 INFO: Started application
+- 05:24:28.000 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:24:28.000 INFO: Log level = DEBUG4
+- 05:24:28.000 INFO: Starting Mongoose 3.9c web server
+- 05:24:28.000 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:24:28.000 INFO: Index files: index.html,index.php
+- 05:24:28.000 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:24:28.000 INFO: CGI pattern: **.php$
+- 05:24:28.000 INFO: Hide files patterns: 
+- 05:24:28.000 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:24:28.000 INFO: Web server url: http://127.0.0.1:50594/
+- 05:24:28.000 INFO: remote_debugging_port = 56159
+- 05:24:28.000 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=56159
+- 05:24:28.063 DEBUG: App::OnContextInitialized()
+- 05:24:28.063 DEBUG: Window max width/height = 1286/720
+- 05:24:28.063 DEBUG: GetBrowserWindow(): not found, hwnd = 3933590
+- 05:24:28.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:24:28.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:24:28.078 DEBUG: StoreBrowserWindow(): hwnd = 3933590
+- 05:24:28.172 DEBUG: ClientHandler::OnAfterCreated()
+- 05:24:28.172 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:24:28.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:24:28.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=E641A1860C50CDCC2450263F4DABD711 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E641A1860C50CDCC2450263F4DABD711 --renderer-client-id=3 --mojo-platform-channel-handle=2280 /prefetch:1
+- 05:24:28.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=08CFFC101851E3C5058D203E2952224B --mojo-platform-channel-handle=1740 /prefetch:2
+- 05:24:28.078 DEBUG: OnBrowserCreated()
+[0615/052428.612:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:24:29.610 INFO: GET 302 /
+- 05:24:29.766 INFO: GET 200 /assets/plugins/bootstrap/css/bootstrap.min.css
+- 05:24:29.766 INFO: GET 200 /assets/plugins/jquery/jquery.min.js
+- 05:24:30.782 INFO: GET 200 /assets/plugins/bootstrap/js/bootstrap.bundle.min.js
+- 05:24:30.782 INFO: GET 200 /assets/plugins/sweetalert2/swal.min.js
+- 05:24:30.531 DEBUG: OnContextCreated()
+- 05:24:30.828 INFO: GET 200 /assets/dist/img/favicon.png
+- 05:24:30.985 INFO: GET 200 /Login
+- 05:24:30.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50594/Login
+- 05:24:43.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50594/Login
+- 05:24:43.125 DEBUG: OnContextCreated()
+- 05:24:43.391 INFO: GET 200 /assets/plugins/bootstrap/css/bootstrap.min.css
+- 05:24:43.391 INFO: GET 200 /assets/plugins/jquery/jquery.min.js
+- 05:24:43.391 INFO: GET 200 /assets/plugins/bootstrap/js/bootstrap.bundle.min.js
+- 05:24:43.391 INFO: GET 200 /assets/plugins/sweetalert2/swal.min.js
+- 05:24:43.407 INFO: GET 200 /Login
+- 05:24:43.422 INFO: GET 200 /assets/dist/img/favicon.png
+- 05:24:43.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50594/Login
+- 05:25:56.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50594/Login
+- 05:25:56.359 DEBUG: OnContextCreated()
+- 05:25:56.641 INFO: GET 200 /assets/plugins/jquery/jquery.min.js
+- 05:25:56.641 INFO: GET 200 /assets/plugins/bootstrap/css/bootstrap.min.css
+- 05:25:56.641 INFO: GET 200 /assets/plugins/bootstrap/js/bootstrap.bundle.min.js
+- 05:25:56.641 INFO: GET 200 /assets/plugins/sweetalert2/swal.min.js
+- 05:25:56.672 INFO: GET 200 /Login
+- 05:25:56.688 INFO: GET 200 /assets/dist/img/favicon.png
+- 05:25:57.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50594/Login
+- 05:26:02.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50594/Login
+- 05:26:02.141 INFO: POST 303 /Login
+- 05:26:02.047 DEBUG: OnContextCreated()
+- 05:26:02.344 INFO: GET 200 /Dashboard
+- 05:26:02.407 INFO: GET 200 /assets/plugins/fontawesome-free/css/all.min.css
+- 05:26:02.438 INFO: GET 200 /assets/dist/css/style.css
+- 05:26:02.485 INFO: GET 200 /assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+- 05:26:02.500 INFO: GET 200 /assets/plugins/datatables/buttons.datatables.min.css
+- 05:26:02.516 INFO: GET 200 /assets/plugins/datatables/datatables.min.css
+- 05:26:02.532 INFO: GET 200 /assets/dist/css/adminlte.min.css
+- 05:26:02.547 INFO: GET 200 /assets/plugins/datatables/datatables.min.js
+- 05:26:02.610 INFO: GET 200 /assets/plugins/datatables/datatables.buttons.min.js
+- 05:26:02.703 INFO: GET 200 /assets/plugins/datatables/buttons.html5.min.js
+- 05:26:03.782 INFO: GET 200 /assets/dist/js/adminlte.js
+- 05:26:03.797 INFO: GET 200 /assets/plugins/datatables/jszip.min.js
+- 05:26:03.844 INFO: GET 200 /assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+- 05:26:03.922 INFO: GET 200 /assets/plugins/datatables/vfs_fonts.js
+- 05:26:03.203 INFO: GET 200 /assets/plugins/datatables/pdfmake.min.js
+- 05:26:05.266 INFO: GET 200 /assets/plugins/fontawesome-free/webfonts/fa-solid-900.woff2
+- 05:26:06.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50594/Dashboard
+- 05:26:10.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50594/Dashboard
+- 05:26:10.812 DEBUG: OnContextCreated()
+- 05:26:10.110 INFO: GET 200 /Keluarga
+- 05:26:11.485 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50594/Keluarga
+- 05:26:12.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50594/Keluarga
+- 05:26:13.672 DEBUG: OnContextCreated()
+- 05:26:13.969 INFO: GET 200 /Kriteria
+- 05:26:14.907 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50594/Kriteria
+- 05:26:14.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50594/Kriteria
+- 05:26:14.328 DEBUG: OnContextCreated()
+- 05:26:14.610 INFO: GET 200 /Penilaian
+- 05:26:15.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50594/Penilaian
+- 05:26:16.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50594/Penilaian
+- 05:26:16.500 DEBUG: OnContextCreated()
+- 05:26:17.782 INFO: GET 200 /Penilaian/hitung
+- 05:26:17.657 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50594/Penilaian/hitung
+- 05:26:21.219 INFO: About to download a file: SPK RJB.pdf
+- 05:26:28.797 INFO: Download was cancelled
+- 05:26:33.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50594/Penilaian/hitung
+- 05:26:33.047 DEBUG: OnContextCreated()
+- 05:26:33.328 INFO: GET 200 /Keluarga
+- 05:26:34.235 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50594/Keluarga
+- 05:26:35.250 DEBUG: WM_DESTROY
+- 05:26:35.250 DEBUG: RemoveBrowserWindow(): hwnd = 3933590
+- 05:26:35.250 INFO: Stopping Mongoose web server
+- 05:26:35.250 DEBUG: Mongoose webserver stopped immediately
+- 05:26:35.250 DEBUG: OnBeforeClose() hwnd=5047624
+- 05:26:35.250 DEBUG: RemoveBrowserWindow(): hwnd = 5047624
+- 05:26:35.250 DEBUG: GetBrowserWindow(): not found, hwnd = 5047624
+- 05:26:35.250 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:26:35.250 DEBUG: Calling CefQuitMessageLoop()
+- 05:26:35.407 INFO: Ended application
+- 05:26:35.407 INFO: --------------------------------------------------------
+- 05:26:59.016 INFO: --------------------------------------------------------
+- 05:26:59.016 INFO: Started application
+- 05:26:59.016 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:26:59.016 INFO: Log level = DEBUG4
+- 05:26:59.016 INFO: Starting Mongoose 3.9c web server
+- 05:26:59.016 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:26:59.016 INFO: Index files: index.html,index.php
+- 05:26:59.016 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:26:59.016 INFO: CGI pattern: **.php$
+- 05:26:59.016 INFO: Hide files patterns: 
+- 05:26:59.016 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:26:59.016 INFO: Web server url: http://127.0.0.1:50681/
+- 05:26:59.016 INFO: remote_debugging_port = 50292
+- 05:26:59.016 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=50292
+- 05:26:59.078 DEBUG: App::OnContextInitialized()
+- 05:26:59.078 DEBUG: Window max width/height = 1286/720
+- 05:26:59.078 DEBUG: GetBrowserWindow(): not found, hwnd = 393946
+- 05:26:59.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:26:59.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:26:59.094 DEBUG: StoreBrowserWindow(): hwnd = 393946
+- 05:26:59.203 DEBUG: ClientHandler::OnAfterCreated()
+- 05:26:59.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:26:59.266 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:26:59.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=EB5CB11E8B870CB8DC46CC69F59AEA06 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=EB5CB11E8B870CB8DC46CC69F59AEA06 --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+- 05:26:59.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=38B56AC5A29A622B63C7429FD3E46711 --mojo-platform-channel-handle=1732 /prefetch:2
+- 05:26:59.094 DEBUG: OnBrowserCreated()
+- 05:26:59.094 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+[0615/052659.585:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:27:00.781 INFO: GET 307 /
+- 05:27:00.953 INFO: GET 200 /assets/plugins/bootstrap/css/bootstrap.min.css
+- 05:27:00.953 INFO: GET 200 /assets/plugins/fontawesome-free/css/all.min.css
+- 05:27:00.953 INFO: GET 200 /assets/plugins/datatables/datatables.min.css
+- 05:27:00.953 INFO: GET 200 /assets/plugins/datatables/buttons.datatables.min.css
+- 05:27:00.953 INFO: GET 200 /assets/dist/css/style.css
+- 05:27:00.953 INFO: GET 200 /assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+- 05:27:00.953 INFO: GET 200 /assets/plugins/jquery/jquery.min.js
+- 05:27:00.953 INFO: GET 200 /assets/dist/css/adminlte.min.css
+- 05:27:00.953 INFO: GET 200 /assets/plugins/bootstrap/js/bootstrap.bundle.min.js
+- 05:27:00.969 INFO: GET 200 /assets/plugins/datatables/datatables.min.js
+- 05:27:00.969 INFO: GET 200 /assets/plugins/datatables/datatables.buttons.min.js
+- 05:27:00.578 DEBUG: OnContextCreated()
+- 05:27:01.985 INFO: GET 200 /assets/plugins/datatables/buttons.html5.min.js
+- 05:27:01.985 INFO: GET 200 /assets/plugins/datatables/jszip.min.js
+- 05:27:01.985 INFO: GET 200 /assets/plugins/datatables/pdfmake.min.js
+- 05:27:01.985 INFO: GET 200 /assets/plugins/sweetalert2/swal.min.js
+- 05:27:01.985 INFO: GET 200 /assets/plugins/datatables/vfs_fonts.js
+- 05:27:01.985 INFO: GET 200 /assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+- 05:27:01.000 INFO: GET 200 /assets/dist/js/adminlte.js
+- 05:27:01.219 INFO: GET 200 /Dashboard
+- 05:27:01.219 INFO: GET 200 /assets/dist/img/favicon.png
+- 05:27:02.672 INFO: GET 200 /assets/plugins/fontawesome-free/webfonts/fa-solid-900.woff2
+- 05:27:02.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50681/Dashboard
+- 05:27:05.188 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50681/Dashboard
+- 05:27:05.375 INFO: GET 307 /Logout
+- 05:27:05.578 INFO: GET 307 /Logout/alert
+- 05:27:05.344 DEBUG: OnContextCreated()
+- 05:27:05.766 INFO: GET 200 /Login
+- 05:27:05.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50681/Login
+- 05:27:09.844 DEBUG: WM_DESTROY
+- 05:27:09.844 DEBUG: RemoveBrowserWindow(): hwnd = 393946
+- 05:27:09.844 INFO: Stopping Mongoose web server
+- 05:27:09.844 DEBUG: Mongoose webserver stopped immediately
+- 05:27:09.844 DEBUG: OnBeforeClose() hwnd=1967616
+- 05:27:09.844 DEBUG: RemoveBrowserWindow(): hwnd = 1967616
+- 05:27:09.844 DEBUG: GetBrowserWindow(): not found, hwnd = 1967616
+- 05:27:09.844 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:27:09.844 DEBUG: Calling CefQuitMessageLoop()
+- 05:27:10.016 INFO: Ended application
+- 05:27:10.016 INFO: --------------------------------------------------------
+- 05:27:31.015 INFO: --------------------------------------------------------
+- 05:27:31.015 INFO: Started application
+- 05:27:31.015 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 05:27:31.015 INFO: Log level = DEBUG4
+- 05:27:31.015 INFO: Starting Mongoose 3.9c web server
+- 05:27:31.015 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 05:27:31.015 INFO: Index files: index.html,index.php
+- 05:27:31.015 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 05:27:31.015 INFO: CGI pattern: **.php$
+- 05:27:31.015 INFO: Hide files patterns: 
+- 05:27:31.015 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 05:27:31.031 INFO: Web server url: http://127.0.0.1:50709/
+- 05:27:31.031 INFO: remote_debugging_port = 53979
+- 05:27:31.031 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=53979
+- 05:27:31.093 DEBUG: App::OnContextInitialized()
+- 05:27:31.093 DEBUG: Window max width/height = 1286/720
+- 05:27:31.093 DEBUG: GetBrowserWindow(): not found, hwnd = 459424
+- 05:27:31.093 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 05:27:31.093 DEBUG: BrowserWindow::CreateBrowserControl()
+- 05:27:31.093 DEBUG: StoreBrowserWindow(): hwnd = 459424
+- 05:27:31.234 DEBUG: ClientHandler::OnAfterCreated()
+- 05:27:31.234 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 05:27:31.016 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=44E247D97C1D3808C8599FF3AAB09F28 --mojo-platform-channel-handle=1840 /prefetch:2
+- 05:27:31.250 DEBUG: OnLoadingStateChange: loading=1, url=
+- 05:27:31.016 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=D6FE8D0B2D2DE4643D17621846B0B374 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D6FE8D0B2D2DE4643D17621846B0B374 --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+- 05:27:31.063 DEBUG: OnBrowserCreated()
+[0615/052731.492:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 05:27:32.718 INFO: GET 307 /
+- 05:27:32.859 INFO: GET 200 /assets/plugins/jquery/jquery.min.js
+- 05:27:32.859 INFO: GET 200 /assets/plugins/bootstrap/css/bootstrap.min.css
+- 05:27:32.859 INFO: GET 200 /assets/plugins/bootstrap/js/bootstrap.bundle.min.js
+- 05:27:32.859 INFO: GET 200 /assets/plugins/sweetalert2/swal.min.js
+- 05:27:32.563 DEBUG: OnContextCreated()
+- 05:27:32.906 INFO: GET 200 /assets/dist/img/favicon.png
+- 05:27:33.015 INFO: GET 200 /Login
+- 05:27:33.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50709/Login
+- 05:27:40.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50709/Login
+- 05:27:40.562 INFO: POST 303 /Login
+- 05:27:40.391 DEBUG: OnContextCreated()
+- 05:27:40.703 INFO: GET 200 /assets/plugins/fontawesome-free/css/all.min.css
+- 05:27:40.703 INFO: GET 200 /assets/plugins/datatables/datatables.min.css
+- 05:27:40.703 INFO: GET 200 /assets/plugins/datatables/buttons.datatables.min.css
+- 05:27:40.703 INFO: GET 200 /assets/dist/css/style.css
+- 05:27:40.718 INFO: GET 200 /assets/dist/css/adminlte.min.css
+- 05:27:40.718 INFO: GET 200 /assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+- 05:27:40.718 INFO: GET 200 /assets/plugins/datatables/datatables.min.js
+- 05:27:40.718 INFO: GET 200 /assets/plugins/datatables/datatables.buttons.min.js
+- 05:27:40.718 INFO: GET 200 /assets/plugins/datatables/buttons.html5.min.js
+- 05:27:40.750 INFO: GET 200 /Dashboard
+- 05:27:40.750 INFO: GET 200 /assets/plugins/datatables/jszip.min.js
+- 05:27:40.828 INFO: GET 200 /assets/plugins/datatables/pdfmake.min.js
+- 05:27:40.828 INFO: GET 200 /assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+- 05:27:40.828 INFO: GET 200 /assets/plugins/datatables/vfs_fonts.js
+- 05:27:40.828 INFO: GET 200 /assets/dist/js/adminlte.js
+- 05:27:42.500 INFO: GET 200 /assets/plugins/fontawesome-free/webfonts/fa-solid-900.woff2
+- 05:27:42.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50709/Dashboard
+- 05:28:27.953 DEBUG: WM_DESTROY
+- 05:28:27.953 DEBUG: RemoveBrowserWindow(): hwnd = 459424
+- 05:28:27.953 INFO: Stopping Mongoose web server
+- 05:28:27.953 DEBUG: Mongoose webserver stopped immediately
+- 05:28:27.984 DEBUG: OnBeforeClose() hwnd=459482
+- 05:28:27.984 DEBUG: RemoveBrowserWindow(): hwnd = 459482
+- 05:28:27.984 DEBUG: GetBrowserWindow(): not found, hwnd = 459482
+- 05:28:27.984 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 05:28:27.984 DEBUG: Calling CefQuitMessageLoop()
+- 05:28:27.797 INFO: Ended application
+- 05:28:27.797 INFO: --------------------------------------------------------
+- 07:29:21.000 INFO: --------------------------------------------------------
+- 07:29:21.047 INFO: Started application
+- 07:29:21.047 INFO: Logging to: C:\Users\AR\Documents\spk_rjb\debug.log
+- 07:29:21.047 INFO: Log level = DEBUG4
+- 07:29:21.047 INFO: Starting Mongoose 3.9c web server
+- 07:29:21.047 INFO: WWW directory: C:\Users\AR\Documents\spk_rjb\www
+- 07:29:21.047 INFO: Index files: index.html,index.php
+- 07:29:21.047 INFO: CGI interpreter: C:\Users\AR\Documents\spk_rjb\php\php-cgi.exe
+- 07:29:21.047 INFO: CGI pattern: **.php$
+- 07:29:21.047 INFO: Hide files patterns: 
+- 07:29:21.047 INFO: CGI environment variables set: TMP=C:\Users\AR\AppData\Local\Temp\,TEMP=C:\Users\AR\AppData\Local\Temp\,TMPDIR=C:\Users\AR\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 07:29:21.047 INFO: Web server url: http://127.0.0.1:50788/
+- 07:29:21.047 INFO: remote_debugging_port = 52599
+- 07:29:21.047 DEBUG: Command line string for the browser process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --remote-debugging-port=52599
+[0615/072921.153:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:29:21.109 DEBUG: App::OnContextInitialized()
+- 07:29:21.109 DEBUG: Window max width/height = 1286/720
+- 07:29:21.109 DEBUG: GetBrowserWindow(): not found, hwnd = 3605890
+- 07:29:21.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 07:29:21.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 07:29:21.125 DEBUG: StoreBrowserWindow(): hwnd = 3605890
+- 07:29:21.359 DEBUG: ClientHandler::OnAfterCreated()
+- 07:29:21.359 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 07:29:21.375 DEBUG: OnLoadingStateChange: loading=1, url=
+- 07:29:23.000 DEBUG: Command line string for the renderer process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=C2EB8718DB3C7D93B6C07A205B70CEA8 --lang=en-US --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=C2EB8718DB3C7D93B6C07A205B70CEA8 --renderer-client-id=3 --mojo-platform-channel-handle=2340 /prefetch:1
+- 07:29:23.000 DEBUG: Command line string for the gpu-process process: "C:\Users\AR\Documents\spk_rjb\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.8853 --gpu-driver-date=10-14-2020 --lang=en-US --log-file="C:\Users\AR\Documents\spk_rjb\debug.log" --service-request-channel-token=3A4930721DE2B3E4E67E8FE47A5AF534 --mojo-platform-channel-handle=1748 /prefetch:2
+- 07:29:23.062 DEBUG: OnBrowserCreated()
+[0615/072924.018:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0615/072926.183:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:29:26.422 INFO: GET 307 /
+- 07:29:26.594 INFO: GET 200 /assets/plugins/jquery/jquery.min.js
+- 07:29:26.594 INFO: GET 200 /assets/plugins/bootstrap/css/bootstrap.min.css
+- 07:29:26.609 INFO: GET 200 /assets/plugins/bootstrap/js/bootstrap.bundle.min.js
+- 07:29:26.609 INFO: GET 200 /assets/plugins/sweetalert2/swal.min.js
+- 07:29:26.812 DEBUG: OnContextCreated()
+- 07:29:26.672 INFO: GET 200 /Login
+- 07:29:26.672 INFO: GET 200 /assets/dist/img/favicon.png
+- 07:29:26.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50788/Login
+[0615/072931.195:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0615/072936.209:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0615/072941.223:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0615/072946.237:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0615/072951.251:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0615/072956.265:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0615/073001.279:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0615/073006.293:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0615/073011.307:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0615/073016.322:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0615/073021.336:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0615/073026.350:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0615/073031.364:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0615/073036.378:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:30:39.766 DEBUG: WM_DESTROY
+- 07:30:39.766 DEBUG: RemoveBrowserWindow(): hwnd = 3605890
+- 07:30:39.766 INFO: Stopping Mongoose web server
+- 07:30:39.766 DEBUG: Mongoose webserver stopped immediately
+- 07:30:39.813 DEBUG: OnBeforeClose() hwnd=459402
+- 07:30:39.813 DEBUG: RemoveBrowserWindow(): hwnd = 459402
+- 07:30:39.813 DEBUG: GetBrowserWindow(): not found, hwnd = 459402
+- 07:30:39.813 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 07:30:39.813 DEBUG: Calling CefQuitMessageLoop()
+- 07:30:40.390 DEBUG: OnBrowserDestroyed()
+- 07:30:40.594 INFO: Ended application
+- 07:30:40.594 INFO: --------------------------------------------------------
