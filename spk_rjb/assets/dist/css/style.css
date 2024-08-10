@@ -1,0 +1,66 @@
+@font-face {
+	font-family: "Pacifico Regular";
+	font-weight: normal;
+	font-style: normal;
+	src: url("../fonts/Pacifico-Regular.ttf");
+}
+
+.border-form {
+	color: #000;
+	border-radius: 112px;
+	border: 2px solid;
+}
+
+table.dataTable tbody td {
+	vertical-align: middle;
+}
+
+#tablePesan {
+	width: 100%;
+	overflow-y: scroll;
+}
+
+#tablePesan tbody td {
+	vertical-align: middle;
+}
+
+.table-po {
+	width: 100%;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	text-align: center !important;
+}
+.table-po tr td {
+	padding: 0 1rem 0 1rem;
+	border: 1px groove !important;
+}
+
+.table-data-po tr td {
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+.table-data-po tr th {
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.fs-po {
+	border: 1px groove !important;
+	padding: 0 0 0 1.4em !important;
+	margin: 0 0 1.5em 0 !important;
+}
+
+.fs-po legend {
+	width: inherit;
+	border-bottom: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none !important;
+	margin: 0 !important;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield !important;
+}
