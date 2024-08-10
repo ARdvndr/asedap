@@ -1,0 +1,61 @@
+.aroma-card-catalogue {
+	.rem(width, 470);
+	.rem(height, 350);
+	.rem(margin, 5);
+	overflow: hidden;
+
+	@media @mobile {
+		.rem(width, 330);
+		.rem(height, 300);
+	}
+
+	img {
+		width: 100%;
+		object-fit: cover;
+		filter: blur(1.5px);
+		-webkit-filter: blur(1.5px);
+	}
+
+	&__body {
+		position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    width: 50%;
+	}
+
+	&__card-text {
+		width: 80%;
+		position: absolute;
+		margin-top: 35%;
+		color: @color-white;
+	}
+}
+
+
+.aroma-card-menus {
+	width: 25rem;
+	height: 18rem;
+	border: 1px solid brown;
+	overflow: hidden;
+
+	img {
+		width: 100%;
+		object-fit: cover;
+		filter: blur(1.5px);
+		-webkit-filter: blur(1.5px);
+	}
+
+	&__body {
+		position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+		overflow-y: auto;
+    z-index: 100;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    width: 55%;
+	}
+}

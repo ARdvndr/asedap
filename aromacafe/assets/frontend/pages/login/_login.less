@@ -1,0 +1,31 @@
+.login {
+  left: 0;
+  width: 75%;
+  transform: translate(16%, 50%);
+
+  @media @mobile {
+    width: 80%;
+    transform: translate(10%, 50%);
+  }
+
+  &__card-image {
+    @media @desktop-xl {
+      width: 50%;
+    }
+
+    @media @mobile {
+      display: none;
+    }
+  }
+
+  &__card-form {
+    width: 45%;
+  }
+}
+
+.login-image {
+  background-image: url('./../images/image-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 70%;
+}

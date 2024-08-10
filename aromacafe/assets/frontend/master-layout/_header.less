@@ -1,0 +1,35 @@
+.aroma-header {
+	width: 100%;
+	.rem(height, 540);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 30%;
+
+	&__content {
+		width: 40%;
+		display: block;
+		position: absolute;
+		transform: translateY(100%);
+		background-color: rgba(61, 57, 53, 0.5);
+		
+		&-text {
+			margin: 2%;
+			padding: .5%;
+			color: @color-white;
+			font-size: @font-size-header;
+			font-family: @font-family-primary;
+			font-weight: @font-weight-bold;
+			letter-spacing: .15em;
+		}
+
+		&-additional-text {
+			margin: 2%;
+			padding: .5%;
+			color: @color-white;
+			font-size: @font-size-3;
+			font-family: @font-family-primary;
+			font-weight: @font-weight-bold;
+			letter-spacing: .1em;
+		}
+	}
+}

@@ -1,0 +1,34 @@
+/* ---------------------------------------------------------------------------
+	Toolkit: Rem
+	============
+	.rem() takes a @property, and @list of values (in px or unitless) and
+	converts to rem.
+	e.g.,
+	.selector {
+		.rem( margin, 20 auto eggs 666% );
+		.rem( font-size, 12 );
+	}
+	Makes life a little easier when working from designs specced in pixels.
+--------------------------------------------------------------------------- */
+
+.rem( @property, @list, @base: 16 ) {
+	@n: length(@list);
+
+	// Only convert numbers that are not percentages or 0;
+	._merge( @px ) when ( isnumber(@px) ) and not ( ispercentage(@px) ) and not ( @px = 0 ) {
+		@rem: ( @px / @base );
+		@{property}+_: unit(@rem, rem);
+	}
+	._merge( @px ) when ( default() ) {
+		@{property}+_: @px;
+	}
+
+	._loop( @n ) when ( @n > 0 ) {
+		._loop((@n - 1));
+
+		@val: extract(@list, @n);
+		._merge( @val ); // merges values onto @property with space character.
+	}
+
+	._loop( @n );
+}

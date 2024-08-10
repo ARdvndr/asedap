@@ -1,0 +1,30 @@
+.register-body {
+	background: url("./../images/image-7.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.register {
+	filter: none;
+	height: 100vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 255, 255, .7);
+
+	left: 0;
+	top: 0;
+	width: 50%;
+	transform: translate(50%, 0);
+
+	@media @mobile {
+		width: 80%;
+		transform: translate(10%, 50%);
+	}
+
+	form {
+		opacity: 1;
+		width: 70%;
+		transform: translate(20%, 0);
+	}
+}

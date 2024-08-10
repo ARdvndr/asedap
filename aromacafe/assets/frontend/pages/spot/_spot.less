@@ -1,0 +1,15 @@
+.spot-image{
+  background-color: @color-primary;
+  border-radius: 10%;
+  overflow: hidden;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    .rem(height, 450px);
+
+    &:hover{
+      filter: grayscale(50%);
+    }
+  }
+}
